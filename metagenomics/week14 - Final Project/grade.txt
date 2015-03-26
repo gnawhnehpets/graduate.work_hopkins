@@ -1,0 +1,11 @@
+Below you'll find comments that may come out choppy or haphazard, but they are simply my thoughts as I go along through my reading of your paper, code and results.  At the end I'll summarize and provide any final comments.
+ 
+--------------------------------
+ 
+You provided a good introduction and background, and the history of MEGAN's development through the major version releases changes was interesting.  The aim if your study was clearly stated.
+ 
+Your description of the process flow through MEGAN analysis is quite good, but there are some technical details I miss as reading though this.  For SEED and KEGG analysis, for example, how does the user installing MEGAN link to existing releases of these resources?  Or are they contained within the installation already?
+ 
+This was a really excellent review of the tool, and it was good that you used a dataset for which public analysis data was already available.  As I read through it though, I noticed I was getting closer and closer to the end and there had been little to no discussion about the actual results of the data you used as input from the biological point of view.  Your stated goal was to duplicate the analysis from Huson's 2011 paper, and you clearly documented the steps involved in the analysis but don't discuss the biological results that much.  As I think about it, I think the reason is mostly because you're duplicating an analysis using both the same input data and analysis tool the authors originally used.  This made it much more difficult to write about biological differences.
+ 
+In the end, I think the technical steps of this project are great.  It would have only been strengthened by choosing a dataset which had previous analysis of these areas by other means, which would have facilitated a better comparison and discussions of strengths/weaknesses of this tool.

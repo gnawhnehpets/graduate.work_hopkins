@@ -1,0 +1,1472 @@
+BLASTP 2.2.28+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: P34VYJRZ01R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           24,169,966 sequences; 8,322,634,185 total letters
+Query= 
+Length=32
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|YP_004420858.1|  gamma-glutamyltranspeptidase [Gallibacter...  66.2    7e-13
+ref|ZP_21152193.1|  gamma-glutamyltransferase [Aggregatibacter...  61.6    2e-10
+ref|ZP_11587274.1|  gamma-glutamyltransferase [Aggregatibacter...  61.6    2e-10
+ref|ZP_21150649.1|  gamma-glutamyltransferase [Aggregatibacter...  61.6    2e-10
+ref|ZP_19268745.1|  gamma-glutamyltransferase [Aggregatibacter...  61.6    3e-10
+ref|ZP_11577882.1|  gamma-glutamyltransferase [Aggregatibacter...  61.6    4e-10
+ref|YP_003255744.1|  hypothetical protein D11S_1138 [Aggregati...  61.6    4e-10
+ref|ZP_11581442.1|  gamma-glutamyltransferase [Aggregatibacter...  61.6    4e-10
+ref|YP_006285902.1|  gamma-glutamyltransferase [Aggregatibacte...  61.6    4e-10
+ref|YP_004949166.1|  gamma-glutamyltransferase [Aggregatibacte...  61.6    4e-10
+ref|ZP_11923848.1|  gamma-glutamyltransferase [Aggregatibacter...  61.6    4e-10
+ref|ZP_11483706.1|  gamma-glutamyltransferase [Aggregatibacter...  61.6    4e-10
+ref|ZP_08755351.1|  gamma-glutamyltranspeptidase [Haemophilus ...  60.5    6e-10
+ref|YP_001344461.1|  gamma-glutamyltransferase [Actinobacillus...  61.2    6e-10
+ref|ZP_01899909.1|  gamma-glutamyltranspeptidase [Moritella sp...  60.5    9e-10
+ref|YP_003006922.1|  gamma-glutamyltransferase [Aggregatibacte...  60.5    1e-09
+ref|YP_001674637.1|  gamma-glutamyltransferase [Shewanella hal...  58.5    5e-09
+ref|ZP_11232161.1|  gamma-glutamyltransferase [Pseudoalteromon...  58.5    5e-09
+ref|ZP_10287852.1|  gamma-glutamyltransferase [Pseudoalteromon...  58.5    5e-09
+ref|YP_003516788.1|  gamma-glutamyltranspeptidase precursor [H...  58.2    7e-09
+ref|ZP_05619108.1|  gamma-glutamyltransferase [Enhydrobacter a...  57.8    8e-09
+ref|ZP_08947801.1|  gamma-glutamyltransferase [Acidovorax radi...  57.4    1e-08
+ref|YP_006853425.1|  gamma-glutamyltransferase [Acidovorax sp....  57.4    1e-08
+ref|XP_002944355.1|  PREDICTED: gamma-glutamyltranspeptidase-l...  56.6    2e-08
+ref|ZP_10387690.1|  gamma-glutamyltranspeptidase [Acidovorax s...  56.6    2e-08
+ref|YP_004127702.1|  gamma-glutamyltransferase [Alicycliphilus...  56.6    2e-08
+ref|YP_004387274.1|  gamma-glutamyltransferase [Alicycliphilus...  56.6    2e-08
+ref|YP_001501722.1|  gamma-glutamyltransferase [Shewanella pea...  56.2    3e-08
+ref|YP_006378122.1|  gamma-glutamyltransferase [Advenella kash...  56.2    3e-08
+ref|NP_717559.1|  gamma-glutamyltransferase GgtA [Shewanella o...  55.8    4e-08
+ref|YP_001474424.1|  gamma-glutamyltransferase [Shewanella sed...  55.8    4e-08
+ref|YP_738413.1|  gamma-glutamyltransferase 1 [Shewanella sp. ...  55.5    5e-08
+ref|ZP_09609953.1|  gamma-glutamyltransferase [Shewanella balt...  55.5    5e-08
+ref|YP_734425.1|  gamma-glutamyltransferase 1 [Shewanella sp. ...  55.5    5e-08
+ref|YP_001555161.1|  gamma-glutamyltransferase [Shewanella bal...  55.5    5e-08
+ref|YP_001050982.1|  gamma-glutamyltransferase [Shewanella bal...  55.5    5e-08
+ref|YP_870122.1|  gamma-glutamyltransferase 1 [Shewanella sp. ...  55.5    5e-08
+ref|YP_001366856.1|  gamma-glutamyltransferase [Shewanella bal...  55.5    5e-08
+ref|YP_001280268.1|  gamma-glutamyltransferase [Psychrobacter ...  55.5    5e-08
+ref|ZP_08566844.1|  gamma-glutamyltranspeptidase [Shewanella s...  55.5    6e-08
+ref|ZP_08017362.1|  gamma-glutamyltranspeptidase [Lautropia mi...  55.5    7e-08
+ref|ZP_10789599.1|  gamma-glutamyltransferase [Psychrobacter s...  55.1    8e-08
+gb|ACJ29600.1|  Gamma-glutamyltranspeptidase [Shewanella piezo...  54.7    9e-08
+ref|YP_004233601.1|  gamma-glutamyltransferase [Acidovorax ave...  54.7    1e-07
+ref|YP_562662.1|  gamma-glutamyltransferase [Shewanella denitr...  54.7    1e-07
+ref|YP_001094283.1|  gamma-glutamyltransferase [Shewanella loi...  54.7    1e-07
+ref|YP_001760308.1|  gamma-glutamyltransferase [Shewanella woo...  54.7    1e-07
+ref|ZP_07044001.1|  gamma-glutamyltransferase [Comamonas testo...  54.3    1e-07
+ref|YP_751014.1|  gamma-glutamyltransferase [Shewanella frigid...  54.7    1e-07
+ref|ZP_11583626.1|  gamma-glutamyltransferase [Aggregatibacter...  54.7    1e-07
+ref|ZP_02159537.1|  gamma-glutamyltranspeptidase [Shewanella b...  54.7    1e-07
+ref|YP_003557370.1|  gamma-glutamyltranspeptidase [Shewanella ...  54.3    1e-07
+ref|ZP_13094738.1|  gamma-glutamyltransferase [Comamonas testo...  54.3    1e-07
+ref|ZP_03541715.1|  gamma-glutamyltransferase [Comamonas testo...  54.3    1e-07
+ref|YP_264461.1|  gamma-glutamyltransferase 1 [Psychrobacter a...  54.3    1e-07
+ref|YP_003279749.1|  gamma-glutamyltransferase [Comamonas test...  54.3    1e-07
+ref|ZP_10720478.1|  gamma-glutamyltranspeptidase [Herbaspirill...  54.3    2e-07
+ref|YP_927443.1|  gamma-glutamyltransferase [Shewanella amazon...  53.9    2e-07
+ref|YP_003774514.1|  gamma-glutamyltranspeptidase [Herbaspiril...  53.9    2e-07
+ref|YP_004012745.1|  gamma-glutamyltransferase [Rhodomicrobium...  53.9    2e-07
+ref|ZP_21023344.1|  Gamma-glutamyltranspeptidase [Pseudoaltero...  53.5    2e-07
+ref|YP_969483.1|  gamma-glutamyltransferase 1 [Acidovorax citr...  53.5    3e-07
+ref|YP_271570.1|  gamma-glutamyltranspeptidase [Colwellia psyc...  53.1    4e-07
+ref|ZP_02167840.1|  gamma-glutamyltransferase [Hoeflea phototr...  52.8    4e-07
+ref|YP_003452546.1|  gamma-glutamyltranspeptidase [Azospirillu...  52.8    4e-07
+ref|ZP_05706427.1|  gamma-glutamyltranspeptidase [Cardiobacter...  52.8    5e-07
+ref|ZP_10591519.1|  gamma-glutamyltranspeptidase [Herbaspirill...  52.8    5e-07
+ref|ZP_11552822.1|  Gamma-glutamyltransferase, Threonine pepti...  52.8    5e-07
+ref|ZP_03512590.1|  gamma-glutamyltranspeptidase protein [Rhiz...  50.1    5e-07
+ref|YP_580486.1|  gamma-glutamyltransferase [Psychrobacter cry...  52.8    5e-07
+ref|ZP_11253303.1|  gamma-glutamyltranspeptidase [Herbaspirill...  52.8    5e-07
+pdb|2QMC|B  Chain B, Crystal Structure Of Helicobacter Pylori ...  50.4    5e-07
+pdb|2NQO|B  Chain B, Crystal Structure Of Helicobacter Pylori ...  50.4    5e-07
+ref|ZP_08873922.1|  gamma-glutamyltransferase [Verminephrobact...  52.8    5e-07
+ref|YP_004489898.1|  gamma-glutamyltransferase [Delftia sp. Cs...  52.4    6e-07
+ref|YP_001563145.1|  gamma-glutamyltransferase [Delftia acidov...  52.4    6e-07
+ref|ZP_03498580.1|  gamma-glutamyltranspeptidase protein [Rhiz...  50.1    6e-07
+ref|ZP_06372972.1|  hypothetical protein C1336_000020004 [Camp...  49.7    7e-07
+ref|ZP_03526410.1|  gamma-glutamyltransferase [Rhizobium etli ...  50.4    8e-07
+ref|ZP_03521349.1|  gamma-glutamyltranspeptidase protein [Rhiz...  50.8    8e-07
+ref|ZP_18227003.1|  Gamma-glutamyltranspeptidase [Cronobacter ...  49.7    8e-07
+ref|YP_004975388.1|  gamma-glutamyltranspeptidase [Azospirillu...  52.0    9e-07
+ref|YP_963736.1|  gamma-glutamyltransferase [Shewanella sp. W3...  52.0    9e-07
+ref|YP_006009611.1|  gamma-glutamyltransferase [Shewanella put...  52.0    9e-07
+ref|YP_001183191.1|  gamma-glutamyltransferase [Shewanella put...  52.0    9e-07
+ref|ZP_18320542.1|  gamma-glutamyltranspeptidase [Rhizobium le...  51.6    1e-06
+ref|ZP_18336851.1|  gamma-glutamyltranspeptidase [Rhizobium le...  51.6    1e-06
+ref|YP_002282774.1|  gamma-glutamyltransferase [Rhizobium legu...  51.6    1e-06
+ref|ZP_03242974.1|  gamma-glutamyltranspeptidase (ggt) [Helico...  50.8    1e-06
+ref|ZP_10836120.1|  gamma-glutamyltransferase [Rhizobium sp. C...  51.6    1e-06
+ref|ZP_11036766.1|  gamma-glutamyltranspeptidase [Rhizobium sp...  51.6    1e-06
+ref|YP_002548843.1|  gamma-glutamyltransferase [Agrobacterium ...  51.6    1e-06
+ref|ZP_17098446.1|  gamma-glutamyltranspeptidase [Klebsiella o...  51.6    1e-06
+ref|ZP_17104440.1|  gamma-glutamyltranspeptidase [Klebsiella o...  51.6    1e-06
+ref|ZP_03240710.1|  gamma-glutamyltranspeptidase (ggt) [Helico...  50.8    1e-06
+ref|ZP_06534113.1|  gamma-glutamyltranspeptidase [Salmonella e...  48.9    2e-06
+ref|ZP_17129689.1|  gamma-glutamyltransferase [Salmonella ente...  51.2    2e-06
+ref|ZP_13957587.1|  gamma-glutamyltranspeptidase, partial [Hel...  50.8    2e-06
+ref|ZP_09691498.1|  gamma-glutamyltranspeptidase [gamma proteo...  51.2    2e-06
+ref|ZP_11265194.1|  gamma-glutamyltranspeptidase [Rhizobium me...  51.2    2e-06
+
+ALIGNMENTS
+>ref|YP_004420858.1| gamma-glutamyltranspeptidase [Gallibacterium anatis UMN179]
+ gb|AEC17961.1| gamma-glutamyltranspeptidase [Gallibacterium anatis UMN179]
+Length=149
+
+ Score = 66.2 bits (160),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1   EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+           EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS
+Sbjct  20  EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  51
+
+
+>ref|ZP_21152193.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype b str. SCC4092]
+ gb|ELT55115.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype b str. SCC4092]
+Length=325
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  196  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  227
+
+
+>ref|ZP_11587274.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype b str. I23C]
+ gb|EGY50183.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype b str. I23C]
+Length=319
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  190  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  221
+
+
+>ref|ZP_21150649.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype a str. A160]
+ gb|ELT57991.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype a str. A160]
+Length=325
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  196  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  227
+
+
+>ref|ZP_19268745.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+Y4]
+ gb|EKX94136.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+Y4]
+Length=454
+
+ Score = 61.6 bits (148),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  325  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  356
+
+
+>ref|ZP_11577882.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype e str. SC1083]
+ gb|EGY34056.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype e str. SC1083]
+Length=589
+
+ Score = 61.6 bits (148),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  460  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  491
+
+
+>ref|YP_003255744.1| hypothetical protein D11S_1138 [Aggregatibacter actinomycetemcomitans 
+D11S-1]
+ ref|ZP_11590488.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype c str. SCC2302]
+ ref|ZP_21154653.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype c str. AAS4A]
+ gb|ACX82525.1| hypothetical protein D11S_1138 [Aggregatibacter actinomycetemcomitans 
+D11S-1]
+ gb|EGY45559.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype c str. SCC2302]
+ gb|ELT51934.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype c str. AAS4A]
+Length=589
+
+ Score = 61.6 bits (148),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  460  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  491
+
+
+>ref|ZP_11581442.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype e str. SCC393]
+ gb|EGY38176.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype e str. SCC393]
+Length=589
+
+ Score = 61.6 bits (148),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  460  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  491
+
+
+>ref|YP_006285902.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+D7S-1]
+ ref|ZP_11481613.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+D17P-3]
+ ref|ZP_11573886.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype a str. H5P1]
+ ref|ZP_11575751.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype d str. I63B]
+ gb|EGY35855.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype d str. I63B]
+ gb|EGY37059.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype a str. H5P1]
+ gb|EGY70633.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+D17P-3]
+ gb|AFI86070.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+D7S-1]
+Length=589
+
+ Score = 61.6 bits (148),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  460  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  491
+
+
+>ref|YP_004949166.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+ANH9381]
+ ref|ZP_11584971.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype b str. SCC1398]
+ ref|ZP_21155325.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype b str. S23A]
+ gb|EGY46691.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype b str. SCC1398]
+ gb|AEW77422.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+ANH9381]
+ gb|ELT57874.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype b str. S23A]
+Length=589
+
+ Score = 61.6 bits (148),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  460  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  491
+
+
+>ref|ZP_11923848.1| gamma-glutamyltransferase [Aggregatibacter aphrophilus ATCC 33389]
+ gb|EGY31437.1| gamma-glutamyltransferase [Aggregatibacter aphrophilus ATCC 33389]
+Length=590
+
+ Score = 61.6 bits (148),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  461  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  492
+
+
+>ref|ZP_11483706.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+D17P-2]
+ gb|EGY75551.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+D17P-2]
+Length=593
+
+ Score = 61.6 bits (148),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 29/32 (91%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  464  EANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  495
+
+
+>ref|ZP_08755351.1| gamma-glutamyltranspeptidase [Haemophilus pittmaniae HK 85]
+ gb|EGV06401.1| gamma-glutamyltranspeptidase [Haemophilus pittmaniae HK 85]
+Length=339
+
+ Score = 60.5 bits (145),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 28/32 (88%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANAIA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  235  DANAIAPQKRPLSSMTPTLVMKDNKPWLVTGS  266
+
+
+>ref|YP_001344461.1| gamma-glutamyltransferase [Actinobacillus succinogenes 130Z]
+ gb|ABR74526.1| gamma-glutamyltransferase [Actinobacillus succinogenes 130Z]
+Length=591
+
+ Score = 61.2 bits (147),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 28/32 (88%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            E+NAIAAKKRPLSSMTPT+V+KDNKP+LVTGS
+Sbjct  462  ESNAIAAKKRPLSSMTPTIVVKDNKPWLVTGS  493
+
+
+>ref|ZP_01899909.1| gamma-glutamyltranspeptidase [Moritella sp. PE36]
+ gb|EDM65672.1| gamma-glutamyltranspeptidase [Moritella sp. PE36]
+Length=591
+
+ Score = 60.5 bits (145),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AAKKRPLSSMTPT+++KDNKP+LVTGS
+Sbjct  462  KANAVAAKKRPLSSMTPTIILKDNKPYLVTGS  493
+
+
+>ref|YP_003006922.1| gamma-glutamyltransferase [Aggregatibacter aphrophilus NJ8700]
+ ref|ZP_16418878.1| gamma-glutamyltransferase [Aggregatibacter aphrophilus F0387]
+ gb|ACS96835.1| gamma-glutamyltransferase [Aggregatibacter aphrophilus NJ8700]
+ gb|EHB89215.1| gamma-glutamyltransferase [Aggregatibacter aphrophilus F0387]
+Length=590
+
+ Score = 60.5 bits (145),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/32 (88%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EAN+IA +KRPLSSMTPTLVMKDNKP+LVTGS
+Sbjct  461  EANSIAPQKRPLSSMTPTLVMKDNKPWLVTGS  492
+
+
+>ref|YP_001674637.1| gamma-glutamyltransferase [Shewanella halifaxensis HAW-EB4]
+ gb|ABZ76978.1| gamma-glutamyltransferase [Shewanella halifaxensis HAW-EB4]
+Length=595
+
+ Score = 58.5 bits (140),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+   KRPLSSM+PT+VMKDNKPF+VTGS
+Sbjct  466  EANAVEGHKRPLSSMSPTIVMKDNKPFIVTGS  497
+
+
+>ref|ZP_11232161.1| gamma-glutamyltransferase [Pseudoalteromonas flavipulchra JG1]
+Length=580
+
+ Score = 58.5 bits (140),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+  KKRPLSSMTPT+VMK+ KPFLVTGS
+Sbjct  451  EANAVEGKKRPLSSMTPTIVMKEGKPFLVTGS  482
+
+
+>ref|ZP_10287852.1| gamma-glutamyltransferase [Pseudoalteromonas piscicida JCM 20779]
+Length=580
+
+ Score = 58.5 bits (140),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+  KKRPLSSMTPT+VMK+ KPFLVTGS
+Sbjct  451  EANAVEGKKRPLSSMTPTIVMKEGKPFLVTGS  482
+
+
+>ref|YP_003516788.1| gamma-glutamyltranspeptidase precursor [Helicobacter mustelae 
+12198]
+ emb|CBG40059.1| gamma-glutamyltranspeptidase precursor [Helicobacter mustelae 
+12198]
+Length=558
+
+ Score = 58.2 bits (139),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANAIA KKRPLSSMTPT+V+KDNKPF+V GS
+Sbjct  433  DANAIAPKKRPLSSMTPTIVLKDNKPFMVVGS  464
+
+
+>ref|ZP_05619108.1| gamma-glutamyltransferase [Enhydrobacter aerosaccus SK60]
+ gb|EEV23722.1| gamma-glutamyltransferase [Enhydrobacter aerosaccus SK60]
+Length=589
+
+ Score = 57.8 bits (138),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 27/31 (87%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  2    ANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            ANAI AKKRPLSSMTPT+VMK+NKP+LVTGS
+Sbjct  461  ANAIEAKKRPLSSMTPTIVMKNNKPWLVTGS  491
+
+
+>ref|ZP_08947801.1| gamma-glutamyltransferase [Acidovorax radicis N35]
+Length=594
+
+ Score = 57.4 bits (137),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 27/32 (84%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AAKKRPLSSMTPTLV+KD KP LVTGS
+Sbjct  465  DANAVAAKKRPLSSMTPTLVLKDGKPTLVTGS  496
+
+
+>ref|YP_006853425.1| gamma-glutamyltransferase [Acidovorax sp. KKS102]
+ gb|AFU44787.1| gamma-glutamyltransferase [Acidovorax sp. KKS102]
+Length=595
+
+ Score = 57.4 bits (137),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 27/32 (84%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AAKKRPLSSMTPTLV+KD KP LVTGS
+Sbjct  466  DANAVAAKKRPLSSMTPTLVLKDGKPTLVTGS  497
+
+
+>ref|XP_002944355.1| PREDICTED: gamma-glutamyltranspeptidase-like [Xenopus (Silurana) 
+tropicalis]
+Length=542
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AAKKRPLSSMTPT+V+KD KP LVTGS
+Sbjct  413  DANAVAAKKRPLSSMTPTIVLKDGKPTLVTGS  444
+
+
+>ref|ZP_10387690.1| gamma-glutamyltranspeptidase [Acidovorax sp. CF316]
+ gb|EJE54987.1| gamma-glutamyltranspeptidase [Acidovorax sp. CF316]
+Length=597
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AAKKRPLSSMTPTLV+KD +P LVTGS
+Sbjct  468  DANAVAAKKRPLSSMTPTLVLKDGRPTLVTGS  499
+
+
+>ref|YP_004127702.1| gamma-glutamyltransferase [Alicycliphilus denitrificans BC]
+ gb|ADV00815.1| gamma-glutamyltransferase [Alicycliphilus denitrificans BC]
+Length=596
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AA KRPLSSMTPT+V+KD KP+LVTGS
+Sbjct  467  DANAVAAGKRPLSSMTPTIVLKDGKPWLVTGS  498
+
+
+>ref|YP_004387274.1| gamma-glutamyltransferase [Alicycliphilus denitrificans K601]
+ gb|AEB83758.1| gamma-glutamyltransferase [Alicycliphilus denitrificans K601]
+Length=596
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AA KRPLSSMTPT+V+KD KP+LVTGS
+Sbjct  467  DANAVAAGKRPLSSMTPTIVLKDGKPWLVTGS  498
+
+
+>ref|YP_001501722.1| gamma-glutamyltransferase [Shewanella pealeana ATCC 700345]
+ gb|ABV87187.1| gamma-glutamyltransferase [Shewanella pealeana ATCC 700345]
+Length=599
+
+ Score = 56.2 bits (134),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+ A KRPLSSM+PT+VMKD+KP++VTGS
+Sbjct  470  EANAVEANKRPLSSMSPTIVMKDSKPYIVTGS  501
+
+
+>ref|YP_006378122.1| gamma-glutamyltransferase [Advenella kashmirensis WT001]
+ gb|AFK61140.1| gamma-glutamyltransferase [Advenella kashmirensis WT001]
+Length=595
+
+ Score = 56.2 bits (134),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAI   KRPLSSMTPT+V+KDNKP+LVTGS
+Sbjct  466  EANAIEPGKRPLSSMTPTMVLKDNKPWLVTGS  497
+
+
+>ref|NP_717559.1| gamma-glutamyltransferase GgtA [Shewanella oneidensis MR-1]
+ gb|AAN55003.1| gamma-glutamyltransferase GgtA [Shewanella oneidensis MR-1]
+Length=579
+
+ Score = 55.8 bits (133),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EAN++   KRPLSSM+PT+VMKD KPFLVTGS
+Sbjct  450  EANSVEGNKRPLSSMSPTIVMKDGKPFLVTGS  481
+
+
+>ref|YP_001474424.1| gamma-glutamyltransferase [Shewanella sediminis HAW-EB3]
+ gb|ABV37296.1| Gamma-glutamyltransferase [Shewanella sediminis HAW-EB3]
+Length=582
+
+ Score = 55.8 bits (133),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+   KRPLSSM+PT+VMKD KPF+VTGS
+Sbjct  453  EANAVEGGKRPLSSMSPTIVMKDGKPFIVTGS  484
+
+
+>ref|YP_738413.1| gamma-glutamyltransferase 1 [Shewanella sp. MR-7]
+ gb|ABI43356.1| gamma-glutamyltransferase 1. Threonine peptidase. MEROPS family 
+T03 [Shewanella sp. MR-7]
+Length=579
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPFLVTGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKPFLVTGS  481
+
+
+>ref|ZP_09609953.1| gamma-glutamyltransferase [Shewanella baltica OS183]
+ gb|EHQ15484.1| gamma-glutamyltransferase [Shewanella baltica OS183]
+Length=579
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPFLVTGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKPFLVTGS  481
+
+
+>ref|YP_734425.1| gamma-glutamyltransferase 1 [Shewanella sp. MR-4]
+ gb|ABI39368.1| gamma-glutamyltransferase 1. Threonine peptidase. MEROPS family 
+T03 [Shewanella sp. MR-4]
+Length=579
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPFLVTGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKPFLVTGS  481
+
+
+>ref|YP_001555161.1| gamma-glutamyltransferase [Shewanella baltica OS195]
+ ref|YP_005273941.1| gamma-glutamyltransferase [Shewanella baltica OS678]
+ gb|ABX49901.1| gamma-glutamyltransferase [Shewanella baltica OS195]
+ gb|ADT94889.1| gamma-glutamyltransferase [Shewanella baltica OS678]
+Length=579
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPFLVTGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKPFLVTGS  481
+
+
+>ref|YP_001050982.1| gamma-glutamyltransferase [Shewanella baltica OS155]
+ ref|YP_006020292.1| gamma-glutamyltransferase [Shewanella baltica BA175]
+ ref|YP_006037953.1| gamma-glutamyltransferase [Shewanella baltica OS117]
+ ref|ZP_12663563.1| gamma-glutamyltransferase [Shewanella baltica OS625]
+ gb|ABN62113.1| gamma-glutamyltransferase 1. Threonine peptidase. MEROPS family 
+T03 [Shewanella baltica OS155]
+ gb|AEG10986.1| gamma-glutamyltransferase [Shewanella baltica BA175]
+ gb|AEH14459.1| gamma-glutamyltransferase [Shewanella baltica OS117]
+ gb|EHC05427.1| gamma-glutamyltransferase [Shewanella baltica OS625]
+Length=579
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPFLVTGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKPFLVTGS  481
+
+
+>ref|YP_870122.1| gamma-glutamyltransferase 1 [Shewanella sp. ANA-3]
+ gb|ABK48716.1| gamma-glutamyltransferase 1. Threonine peptidase. MEROPS family 
+T03 [Shewanella sp. ANA-3]
+Length=579
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPFLVTGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKPFLVTGS  481
+
+
+>ref|YP_001366856.1| gamma-glutamyltransferase [Shewanella baltica OS185]
+ ref|YP_002357655.1| gamma-glutamyltransferase [Shewanella baltica OS223]
+ gb|ABS08793.1| gamma-glutamyltransferase [Shewanella baltica OS185]
+ gb|ACK46232.1| gamma-glutamyltransferase [Shewanella baltica OS223]
+Length=579
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPFLVTGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKPFLVTGS  481
+
+
+>ref|YP_001280268.1| gamma-glutamyltransferase [Psychrobacter sp. PRwf-1]
+ gb|ABQ94318.1| gamma-glutamyltransferase 1, Threonine peptidase, MEROPS family 
+T03 [Psychrobacter sp. PRwf-1]
+Length=617
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AA KRPLSSM+PT+V KDN+P++VTGS
+Sbjct  488  DANAVAASKRPLSSMSPTIVFKDNQPYIVTGS  519
+
+
+>ref|ZP_08566844.1| gamma-glutamyltranspeptidase [Shewanella sp. HN-41]
+ gb|EGM69715.1| gamma-glutamyltranspeptidase [Shewanella sp. HN-41]
+Length=579
+
+ Score = 55.5 bits (132),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPFLVTGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKPFLVTGS  481
+
+
+>ref|ZP_08017362.1| gamma-glutamyltranspeptidase [Lautropia mirabilis ATCC 51599]
+ gb|EFV96025.1| gamma-glutamyltranspeptidase [Lautropia mirabilis ATCC 51599]
+Length=630
+
+ Score = 55.5 bits (132),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+  +KRPLSSMTPT V+KD KP+LVTGS
+Sbjct  501  EANAVGPRKRPLSSMTPTFVLKDGKPWLVTGS  532
+
+
+>ref|ZP_10789599.1| gamma-glutamyltransferase [Psychrobacter sp. PAMC 21119]
+Length=648
+
+ Score = 55.1 bits (131),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+ A KRPLSSM+PTLV K+NKP++VTGS
+Sbjct  519  EANAVEANKRPLSSMSPTLVFKNNKPYIVTGS  550
+
+
+>gb|ACJ29600.1| Gamma-glutamyltranspeptidase [Shewanella piezotolerans WP3]
+Length=583
+
+ Score = 54.7 bits (130),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  2    ANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            ANA+  KKRPLSSM+PT+VMKD KP++VTGS
+Sbjct  455  ANAVEGKKRPLSSMSPTIVMKDGKPYIVTGS  485
+
+
+>ref|YP_004233601.1| gamma-glutamyltransferase [Acidovorax avenae subsp. avenae ATCC 
+19860]
+ gb|ADX45034.1| gamma-glutamyltransferase [Acidovorax avenae subsp. avenae ATCC 
+19860]
+Length=589
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+A  KRPLSSMTPTLV+KD KP LVTGS
+Sbjct  460  DANAVAGGKRPLSSMTPTLVLKDGKPVLVTGS  491
+
+
+>ref|YP_562662.1| gamma-glutamyltransferase [Shewanella denitrificans OS217]
+ gb|ABE54939.1| gamma-glutamyltransferase 1. Threonine peptidase. MEROPS family 
+T03 [Shewanella denitrificans OS217]
+Length=583
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPF+VTGS
+Sbjct  454  DANAVEGNKRPLSSMSPTIVMKDGKPFIVTGS  485
+
+
+>ref|YP_001094283.1| gamma-glutamyltransferase [Shewanella loihica PV-4]
+ gb|ABO24024.1| gamma-glutamyltransferase [Shewanella loihica PV-4]
+Length=576
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPF+VTGS
+Sbjct  447  DANAVEGGKRPLSSMSPTIVMKDGKPFIVTGS  478
+
+
+>ref|YP_001760308.1| gamma-glutamyltransferase [Shewanella woodyi ATCC 51908]
+ gb|ACA86213.1| gamma-glutamyltransferase [Shewanella woodyi ATCC 51908]
+Length=581
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPF+VTGS
+Sbjct  452  DANAVEGNKRPLSSMSPTIVMKDGKPFIVTGS  483
+
+
+>ref|ZP_07044001.1| gamma-glutamyltransferase [Comamonas testosteroni S44]
+ gb|EFI62361.1| gamma-glutamyltransferase [Comamonas testosteroni S44]
+Length=470
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+ A KRPLSSMTPTLV+KD KP LVTGS
+Sbjct  341  DANAVQAGKRPLSSMTPTLVLKDGKPVLVTGS  372
+
+
+>ref|YP_751014.1| gamma-glutamyltransferase [Shewanella frigidimarina NCIMB 400]
+ gb|ABI72176.1| gamma-glutamyltransferase [Shewanella frigidimarina NCIMB 400]
+Length=583
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD KPF+VTGS
+Sbjct  454  DANAVEGNKRPLSSMSPTMVMKDGKPFIVTGS  485
+
+
+>ref|ZP_11583626.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype f str. D18P1]
+ gb|EGY39967.1| gamma-glutamyltransferase [Aggregatibacter actinomycetemcomitans 
+serotype f str. D18P1]
+Length=589
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAI  +KR LSSMTPTLVMK+NKP+LVTGS
+Sbjct  460  EANAIVPQKRQLSSMTPTLVMKNNKPWLVTGS  491
+
+
+>ref|ZP_02159537.1| gamma-glutamyltranspeptidase [Shewanella benthica KT99]
+ gb|EDP98972.1| gamma-glutamyltranspeptidase [Shewanella benthica KT99]
+Length=582
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EAN++   KRPLSSM+PT+VMKD KPF++TGS
+Sbjct  453  EANSVEGNKRPLSSMSPTIVMKDGKPFIITGS  484
+
+
+>ref|YP_003557370.1| gamma-glutamyltranspeptidase [Shewanella violacea DSS12]
+ dbj|BAJ02592.1| gamma-glutamyltranspeptidase [Shewanella violacea DSS12]
+Length=582
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EAN++   KRPLSSM+PT+VMKD KPF++TGS
+Sbjct  453  EANSVEGNKRPLSSMSPTIVMKDGKPFIITGS  484
+
+
+>ref|ZP_13094738.1| gamma-glutamyltransferase [Comamonas testosteroni ATCC 11996]
+ gb|EHN67067.1| gamma-glutamyltransferase [Comamonas testosteroni ATCC 11996]
+Length=609
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+ A KRPLSSMTPTLV+KD KP LVTGS
+Sbjct  480  DANAVQAGKRPLSSMTPTLVLKDGKPVLVTGS  511
+
+
+>ref|ZP_03541715.1| gamma-glutamyltransferase [Comamonas testosteroni KF-1]
+ gb|EED66001.1| gamma-glutamyltransferase [Comamonas testosteroni KF-1]
+Length=611
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+ A KRPLSSMTPTLV+KD KP LVTGS
+Sbjct  482  DANAVQAGKRPLSSMTPTLVLKDGKPVLVTGS  513
+
+
+>ref|YP_264461.1| gamma-glutamyltransferase 1 [Psychrobacter arcticus 273-4]
+ gb|AAZ19027.1| gamma-glutamyltransferase 1, Threonine peptidase, MEROPS family 
+T03 [Psychrobacter arcticus 273-4]
+Length=645
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANAI A KRPLSSM+PTLV KD+KP++VTGS
+Sbjct  516  DANAIEANKRPLSSMSPTLVFKDSKPYIVTGS  547
+
+
+>ref|YP_003279749.1| gamma-glutamyltransferase [Comamonas testosteroni CNB-2]
+ gb|ACY34453.1| gamma-glutamyltransferase [Comamonas testosteroni CNB-2]
+Length=609
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+ A KRPLSSMTPTLV+KD KP LVTGS
+Sbjct  480  DANAVQAGKRPLSSMTPTLVLKDGKPVLVTGS  511
+
+
+>ref|ZP_10720478.1| gamma-glutamyltranspeptidase [Herbaspirillum sp. CF444]
+ gb|EJL91904.1| gamma-glutamyltranspeptidase [Herbaspirillum sp. CF444]
+Length=587
+
+ Score = 54.3 bits (129),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+   KRPLSSM+PT V+KD KPFLVTGS
+Sbjct  458  EANAVGPGKRPLSSMSPTFVLKDGKPFLVTGS  489
+
+
+>ref|YP_927443.1| gamma-glutamyltransferase [Shewanella amazonensis SB2B]
+ gb|ABL99773.1| gamma-glutamyltransferase 1. Threonine peptidase. MEROPS family 
+T03 [Shewanella amazonensis SB2B]
+Length=590
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+  +KRPLSSM+PT+VMKD KPF+VTGS
+Sbjct  461  DANAVEPQKRPLSSMSPTIVMKDGKPFIVTGS  492
+
+
+>ref|YP_003774514.1| gamma-glutamyltranspeptidase [Herbaspirillum seropedicae SmR1]
+ gb|ADJ62606.1| gamma-glutamyltranspeptidase protein [Herbaspirillum seropedicae 
+SmR1]
+Length=585
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+A  KRPLSSM+PT V+KD KPFLVTGS
+Sbjct  456  DANAVAPYKRPLSSMSPTFVLKDGKPFLVTGS  487
+
+
+>ref|YP_004012745.1| gamma-glutamyltransferase [Rhodomicrobium vannielii ATCC 17100]
+ gb|ADP71646.1| gamma-glutamyltransferase [Rhodomicrobium vannielii ATCC 17100]
+Length=593
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAI  KKRPLSSM PT+VMKD  P+L+TGS
+Sbjct  457  EANAIEPKKRPLSSMAPTIVMKDGAPYLITGS  488
+
+
+>ref|ZP_21023344.1| Gamma-glutamyltranspeptidase [Pseudoalteromonas luteoviolacea 
+B = ATCC 29581]
+ emb|CCQ09406.1| Gamma-glutamyltranspeptidase [Pseudoalteromonas luteoviolacea 
+B = ATCC 29581]
+Length=580
+
+ Score = 53.5 bits (127),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSMTPT+V+K+ KPFLVTGS
+Sbjct  450  DANAVEGGKRPLSSMTPTIVLKEGKPFLVTGS  481
+
+
+>ref|YP_969483.1| gamma-glutamyltransferase 1 [Acidovorax citrulli AAC00-1]
+ gb|ABM31709.1| gamma-glutamyltransferase 1 [Acidovorax citrulli AAC00-1]
+Length=589
+
+ Score = 53.5 bits (127),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+A  KRPLSSM+PTLV+KD KP LVTGS
+Sbjct  460  DANAVAGGKRPLSSMSPTLVLKDGKPVLVTGS  491
+
+
+>ref|YP_271570.1| gamma-glutamyltranspeptidase [Colwellia psychrerythraea 34H]
+ gb|AAZ27958.1| gamma-glutamyltranspeptidase [Colwellia psychrerythraea 34H]
+Length=619
+
+ Score = 53.1 bits (126),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  2    ANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            ANAI AKKRPLSSMTPT+V+KD +P+L TG+
+Sbjct  480  ANAIEAKKRPLSSMTPTIVLKDGEPYLATGT  510
+
+
+>ref|ZP_02167840.1| gamma-glutamyltransferase [Hoeflea phototrophica DFL-43]
+ gb|EDQ32373.1| gamma-glutamyltransferase [Hoeflea phototrophica DFL-43]
+Length=581
+
+ Score = 52.8 bits (125),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+V+KD KPFLVTGS
+Sbjct  449  DANAVEPGKRPLSSMSPTIVLKDGKPFLVTGS  480
+
+
+>ref|YP_003452546.1| gamma-glutamyltranspeptidase [Azospirillum sp. B510]
+ dbj|BAI76002.1| gamma-glutamyltranspeptidase [Azospirillum sp. B510]
+Length=594
+
+ Score = 52.8 bits (125),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAI   KRPLSSM+PT+V+KD KP+LVTGS
+Sbjct  465  EANAIQPYKRPLSSMSPTIVLKDGKPWLVTGS  496
+
+
+>ref|ZP_05706427.1| gamma-glutamyltranspeptidase [Cardiobacterium hominis ATCC 15826]
+ gb|EEV87477.1| gamma-glutamyltranspeptidase [Cardiobacterium hominis ATCC 15826]
+Length=586
+
+ Score = 52.8 bits (125),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 24/32 (75%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+ A KRPLSSM+PT+V KD+KPFLVTGS
+Sbjct  457  DANAVEAGKRPLSSMSPTIVFKDDKPFLVTGS  488
+
+
+>ref|ZP_10591519.1| gamma-glutamyltranspeptidase [Herbaspirillum sp. YR522]
+ gb|EJN08022.1| gamma-glutamyltranspeptidase [Herbaspirillum sp. YR522]
+Length=587
+
+ Score = 52.8 bits (125),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT V+KD KPFLVTGS
+Sbjct  458  DANAVGPYKRPLSSMSPTFVLKDGKPFLVTGS  489
+
+
+>ref|ZP_11552822.1| Gamma-glutamyltransferase, Threonine peptidase [Herbaspirillum 
+frisingense GSF30]
+ gb|EKF71731.1| Gamma-glutamyltransferase, Threonine peptidase [Herbaspirillum 
+frisingense GSF30]
+Length=569
+
+ Score = 52.8 bits (125),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT V+KD KPFLVTGS
+Sbjct  440  DANAVGPYKRPLSSMSPTFVLKDGKPFLVTGS  471
+
+
+>ref|ZP_03512590.1| gamma-glutamyltranspeptidase protein [Rhizobium etli 8C-3]
+Length=155
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+           EANAIA KK PLSSM+PT++ +D KPF+V GS
+Sbjct  11  EANAIAPKKTPLSSMSPTIITRDGKPFMVIGS  42
+
+
+>ref|YP_580486.1| gamma-glutamyltransferase [Psychrobacter cryohalolentis K5]
+ gb|ABE75002.1| gamma-glutamyltransferase 1, Threonine peptidase, MEROPS family 
+T03 [Psychrobacter cryohalolentis K5]
+Length=645
+
+ Score = 52.8 bits (125),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+ A KRPLSSM+PT+V KD+KP++VTGS
+Sbjct  516  DANAVEANKRPLSSMSPTIVFKDSKPYIVTGS  547
+
+
+>ref|ZP_11253303.1| gamma-glutamyltranspeptidase [Herbaspirillum sp. GW103]
+ gb|EIJ48421.1| gamma-glutamyltranspeptidase [Herbaspirillum sp. GW103]
+Length=586
+
+ Score = 52.8 bits (125),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT V+KD KPFLVTGS
+Sbjct  457  DANAVGPYKRPLSSMSPTFVLKDGKPFLVTGS  488
+
+
+>pdb|2QMC|B Chain B, Crystal Structure Of Helicobacter Pylori Gamma-Glutamyltranspeptidase 
+T380a Mutant
+ pdb|2QMC|D Chain D, Crystal Structure Of Helicobacter Pylori Gamma-Glutamyltranspeptidase 
+T380a Mutant
+Length=188
+
+ Score = 50.4 bits (119),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1   EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+           +ANAI A KRPLSSM+PT+V+K+NK FLV GS
+Sbjct  60  DANAIEANKRPLSSMSPTIVLKNNKVFLVVGS  91
+
+
+>pdb|2NQO|B Chain B, Crystal Structure Of Helicobacter Pylori Gamma-Glutamyltranspeptidase
+ pdb|2NQO|D Chain D, Crystal Structure Of Helicobacter Pylori Gamma-Glutamyltranspeptidase
+ pdb|2QM6|B Chain B, Crystal Structure Of Helicobacter Pylori Gamma-Glutamyltranspeptidase 
+In Complex With Glutamate
+ pdb|2QM6|D Chain D, Crystal Structure Of Helicobacter Pylori Gamma-Glutamyltranspeptidase 
+In Complex With Glutamate
+ pdb|3FNM|B Chain B, Crystal Structure Of Acivicin-Inhibited Gamma-Glutamyltranspeptidase 
+Reveals Critical Roles For Its C-Terminus In 
+Autoprocessing And Catalysis
+ pdb|3FNM|D Chain D, Crystal Structure Of Acivicin-Inhibited Gamma-Glutamyltranspeptidase 
+Reveals Critical Roles For Its C-Terminus In 
+Autoprocessing And Catalysis
+Length=188
+
+ Score = 50.4 bits (119),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1   EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+           +ANAI A KRPLSSM+PT+V+K+NK FLV GS
+Sbjct  60  DANAIEANKRPLSSMSPTIVLKNNKVFLVVGS  91
+
+
+>ref|ZP_08873922.1| gamma-glutamyltransferase [Verminephrobacter aporrectodeae subsp. 
+tuberculatae At4]
+Length=588
+
+ Score = 52.8 bits (125),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 26/32 (81%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+AA KRPLSSMTPT+V+KD KP LVTGS
+Sbjct  459  EANAVAAGKRPLSSMTPTVVLKDGKPTLVTGS  490
+
+
+>ref|YP_004489898.1| gamma-glutamyltransferase [Delftia sp. Cs1-4]
+ gb|AEF91543.1| gamma-glutamyltransferase [Delftia sp. Cs1-4]
+Length=606
+
+ Score = 52.4 bits (124),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AA KRPLSSMTPT+V+K  KP LVTGS
+Sbjct  477  DANAVAAGKRPLSSMTPTMVLKGGKPVLVTGS  508
+
+
+>ref|YP_001563145.1| gamma-glutamyltransferase [Delftia acidovorans SPH-1]
+ gb|ABX34760.1| gamma-glutamyltransferase [Delftia acidovorans SPH-1]
+Length=606
+
+ Score = 52.4 bits (124),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+AA KRPLSSMTPT+V+K  KP LVTGS
+Sbjct  477  DANAVAAGKRPLSSMTPTMVLKGGKPVLVTGS  508
+
+
+>ref|ZP_03498580.1| gamma-glutamyltranspeptidase protein [Rhizobium etli Kim 5]
+Length=184
+
+ Score = 50.1 bits (118),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+           EANAIA KK PLSSM+PT++ +D KPF+V GS
+Sbjct  40  EANAIAPKKTPLSSMSPTIITRDGKPFMVIGS  71
+
+
+>ref|ZP_06372972.1| hypothetical protein C1336_000020004 [Campylobacter jejuni subsp. 
+jejuni 1336]
+ gb|EFC31712.1| hypothetical protein C1336_000020004 [Campylobacter jejuni subsp. 
+jejuni 1336]
+Length=137
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+           EANAI  KKRPLSSM+PT+++KD K F+V GS
+Sbjct  11  EANAIEPKKRPLSSMSPTIILKDGKVFMVVGS  42
+
+
+>ref|ZP_03526410.1| gamma-glutamyltransferase [Rhizobium etli CIAT 894]
+Length=225
+
+ Score = 50.4 bits (119),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA KK PLSSM+PT+V +D KPF+V GS
+Sbjct  169  EANAIAPKKTPLSSMSPTIVTRDGKPFMVIGS  200
+
+
+>ref|ZP_03521349.1| gamma-glutamyltranspeptidase protein [Rhizobium etli GR56]
+Length=239
+
+ Score = 50.8 bits (120),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA KK PLSSM+PT+V +D KPF+V GS
+Sbjct  95   EANAIAPKKTPLSSMSPTIVTRDGKPFMVIGS  126
+
+
+>ref|ZP_18227003.1| Gamma-glutamyltranspeptidase [Cronobacter sakazakii 696]
+ emb|CCK08873.1| Gamma-glutamyltranspeptidase [Cronobacter sakazakii 696]
+Length=148
+
+ Score = 49.7 bits (117),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1   EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+           +ANA+  KKRPLSSM+PT+V+KD K +LVTGS
+Sbjct  24  DANAVGPKKRPLSSMSPTIVVKDGKTWLVTGS  55
+
+
+>ref|YP_004975388.1| gamma-glutamyltranspeptidase [Azospirillum lipoferum 4B]
+ emb|CBS90811.1| Gamma-glutamyltranspeptidase [Azospirillum lipoferum 4B]
+Length=604
+
+ Score = 52.0 bits (123),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAI   KRPLSSM+PT+V+KD KP+LVTGS
+Sbjct  475  EANAIQPFKRPLSSMSPTIVLKDGKPWLVTGS  506
+
+
+>ref|YP_963736.1| gamma-glutamyltransferase [Shewanella sp. W3-18-1]
+ gb|ABM25182.1| gamma-glutamyltransferase 1. Threonine peptidase. MEROPS family 
+T03 [Shewanella sp. W3-18-1]
+Length=579
+
+ Score = 52.0 bits (123),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD K FL+TGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKAFLITGS  481
+
+
+>ref|YP_006009611.1| gamma-glutamyltransferase [Shewanella putrefaciens 200]
+ gb|ADV54145.1| gamma-glutamyltransferase [Shewanella putrefaciens 200]
+Length=579
+
+ Score = 52.0 bits (123),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD K FL+TGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKAFLITGS  481
+
+
+>ref|YP_001183191.1| gamma-glutamyltransferase [Shewanella putrefaciens CN-32]
+ gb|ABP75392.1| gamma-glutamyltransferase [Shewanella putrefaciens CN-32]
+Length=579
+
+ Score = 52.0 bits (123),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+   KRPLSSM+PT+VMKD K FL+TGS
+Sbjct  450  DANAVEGNKRPLSSMSPTIVMKDGKAFLITGS  481
+
+
+>ref|ZP_18320542.1| gamma-glutamyltranspeptidase [Rhizobium leguminosarum bv. trifolii 
+WSM2297]
+ gb|EJC81234.1| gamma-glutamyltranspeptidase [Rhizobium leguminosarum bv. trifolii 
+WSM2297]
+Length=578
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA KK PLSSM+PT+V KD KPF+V GS
+Sbjct  434  EANAIAPKKTPLSSMSPTIVTKDGKPFMVIGS  465
+
+
+>ref|ZP_18336851.1| gamma-glutamyltranspeptidase [Rhizobium leguminosarum bv. trifolii 
+WSM597]
+ ref|ZP_18340248.1| gamma-glutamyltranspeptidase [Rhizobium leguminosarum bv. trifolii 
+WSM597]
+ gb|EJB02184.1| gamma-glutamyltranspeptidase [Rhizobium leguminosarum bv. trifolii 
+WSM597]
+ gb|EJB05581.1| gamma-glutamyltranspeptidase [Rhizobium leguminosarum bv. trifolii 
+WSM597]
+Length=578
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA KK PLSSM+PT+V KD KPF+V GS
+Sbjct  434  EANAIAPKKTPLSSMSPTIVTKDGKPFMVIGS  465
+
+
+>ref|YP_002282774.1| gamma-glutamyltransferase [Rhizobium leguminosarum bv. trifolii 
+WSM2304]
+ gb|ACI56548.1| gamma-glutamyltransferase [Rhizobium leguminosarum bv. trifolii 
+WSM2304]
+Length=578
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA KK PLSSM+PT+V KD KPF+V GS
+Sbjct  434  EANAIAPKKTPLSSMSPTIVTKDGKPFMVIGS  465
+
+
+>ref|ZP_03242974.1| gamma-glutamyltranspeptidase (ggt) [Helicobacter pylori HPKX_438_CA4C1]
+Length=267
+
+ Score = 50.8 bits (120),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANAI A KRPLSSM+PT+V+K+NK FLV GS
+Sbjct  179  DANAIEANKRPLSSMSPTIVLKNNKVFLVVGS  210
+
+
+>ref|ZP_10836120.1| gamma-glutamyltransferase [Rhizobium sp. CCGE 510]
+ gb|EJT04101.1| gamma-glutamyltransferase [Rhizobium sp. CCGE 510]
+Length=578
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA KK PLSSM+PT+V KD KPF+V GS
+Sbjct  434  EANAIAPKKTPLSSMSPTIVTKDGKPFMVIGS  465
+
+
+>ref|ZP_11036766.1| gamma-glutamyltranspeptidase [Rhizobium sp. CF142]
+ gb|EJJ24919.1| gamma-glutamyltranspeptidase [Rhizobium sp. CF142]
+Length=580
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA KK PLSSM+PT+V KD KPF+V GS
+Sbjct  436  EANAIAPKKTPLSSMSPTIVTKDGKPFMVIGS  467
+
+
+>ref|YP_002548843.1| gamma-glutamyltransferase [Agrobacterium vitis S4]
+ gb|ACM35837.1| gamma-glutamyltransferase [Agrobacterium vitis S4]
+Length=588
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA KK PLSSM+PT+V KD KPF+V GS
+Sbjct  442  EANAIAPKKTPLSSMSPTIVTKDGKPFMVIGS  473
+
+
+>ref|ZP_17098446.1| gamma-glutamyltranspeptidase [Klebsiella oxytoca 10-5243]
+ gb|EHS91573.1| gamma-glutamyltranspeptidase [Klebsiella oxytoca 10-5243]
+Length=580
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+ AKKRPLSSM+PT+V+KD K +LVTGS
+Sbjct  450  DANAVEAKKRPLSSMSPTIVVKDGKTWLVTGS  481
+
+
+>ref|ZP_17104440.1| gamma-glutamyltranspeptidase [Klebsiella oxytoca 10-5245]
+ gb|EHS90485.1| gamma-glutamyltranspeptidase [Klebsiella oxytoca 10-5245]
+Length=580
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANA+ AKKRPLSSM+PT+V+KD K +LVTGS
+Sbjct  450  DANAVEAKKRPLSSMSPTIVVKDGKTWLVTGS  481
+
+
+>ref|ZP_03240710.1| gamma-glutamyltranspeptidase (ggt) [Helicobacter pylori HPKX_438_AG0C1]
+Length=323
+
+ Score = 50.8 bits (120),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANAI A KRPLSSM+PT+V+K+NK FLV GS
+Sbjct  195  DANAIEANKRPLSSMSPTIVLKNNKVFLVVGS  226
+
+
+>ref|ZP_06534113.1| gamma-glutamyltranspeptidase [Salmonella enterica subsp. enterica 
+serovar Typhi str. AG3]
+Length=179
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1   EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+           +ANA+  KKRPLSSM+PT+V+KD K +LVTGS
+Sbjct  49  DANAVEPKKRPLSSMSPTIVVKDGKTWLVTGS  80
+
+
+>ref|ZP_17129689.1| gamma-glutamyltransferase [Salmonella enterica subsp. houtenae 
+str. ATCC BAA-1581]
+ gb|EHY67873.1| gamma-glutamyltransferase [Salmonella enterica subsp. houtenae 
+str. ATCC BAA-1581]
+Length=580
+
+ Score = 51.2 bits (121),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+  KKRPLSSM+PT+V+KD K +LVTGS
+Sbjct  450  EANAVGPKKRPLSSMSPTIVVKDGKTWLVTGS  481
+
+
+>ref|ZP_13957587.1| gamma-glutamyltranspeptidase, partial [Helicobacter pylori P79]
+ gb|EIE29274.1| gamma-glutamyltranspeptidase, partial [Helicobacter pylori P79]
+Length=415
+
+ Score = 50.8 bits (120),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            +ANAI A KRPLSSM+PT+V+K+NK FLV GS
+Sbjct  287  DANAIEANKRPLSSMSPTIVLKNNKVFLVVGS  318
+
+
+>ref|ZP_09691498.1| gamma-glutamyltranspeptidase [gamma proteobacterium HIMB55]
+ gb|EHQ56375.1| gamma-glutamyltranspeptidase [gamma proteobacterium HIMB55]
+Length=577
+
+ Score = 51.2 bits (121),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANA+AA  RPLSSMTPTLV K+ KP++ TGS
+Sbjct  447  EANAVAAGSRPLSSMTPTLVFKEGKPWVATGS  478
+
+
+>ref|ZP_11265194.1| gamma-glutamyltranspeptidase [Rhizobium mesoamericanum STM3625]
+ emb|CCM76358.1| gamma-glutamyltranspeptidase [Rhizobium mesoamericanum STM3625]
+Length=579
+
+ Score = 51.2 bits (121),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    EANAIAAKKRPLSSMTPTLVMKDNKPFLVTGS  32
+            EANAIA KK PLSSM+PT+V KD KPF++ GS
+Sbjct  435  EANAIAPKKTPLSSMSPTIVTKDGKPFMIIGS  466
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Apr 4, 2013  10:40 AM
+  Number of letters in database: 8,322,634,185
+  Number of sequences in database:  24,169,966
+
+Lambda      K        H
+   0.310    0.123    0.330 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 24169966
+Number of Hits to DB: 43983180
+Number of extensions: 614390
+Number of successful extensions: 1140
+Number of sequences better than 100: 277
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 1139
+Number of HSP's successfully gapped: 277
+Length of query: 32
+Length of database: 8322634185
+Length adjustment: 7
+Effective length of query: 25
+Effective length of database: 8153444423
+Effective search space: 203836110575
+Effective search space used: 203836110575
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (20.8 bits)
+S2: 69 (31.2 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

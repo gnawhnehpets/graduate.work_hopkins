@@ -1,0 +1,5 @@
+This is a bifunctional protein with distinct kinase and adenylyltransferase domains.  I've used this for a while in tutorials as a more challenging protein to annotate because of this functional split, but I see that this summer it has been added to the public repositories so it is suddenly a lot easier to validate.  :)
+ 
+You described the two stepwise functions this molecule performs well, but you need to have a product name which reflects these distinct functions.  I thought you had it exactly and then at the end you decided to use the more generic name.
+ 
+All of your other annotations are correct.  Well done.

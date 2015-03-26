@@ -1,0 +1,9 @@
+  <HTML>
+    <HEAD>
+       <TITLE>Test Template</TITLE>
+    </HEAD>
+    <BODY>
+       My Home Directory is <TMPL_VAR NAME="home">.
+       My Path is set to <TMPL_VAR NAME="path">.
+    </BODY>
+  </HTML>

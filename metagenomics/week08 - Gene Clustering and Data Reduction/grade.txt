@@ -1,0 +1,5 @@
+You're quite right about the low-abundance k-mer removal step's application - in metagenomic samples it might only be applicable in the case where you have high coverage, else what you are eliminating could just be the less-abundant organisms.
+ 
+I feel like these were really good results - When you toggle between the standard and diginorm plots it looks like a lot of background noise just falls away.  This isn't a very scientific observation, of course, but without quantified results this is the sort of good result I expect.
+ 
+In that vein, you did good work here but the thing really missing is an analysis of the results you got.  You described the steps and presented the data very well, but there seems to not have been much time to describe/discuss what you think it means.

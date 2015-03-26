@@ -1,0 +1,68 @@
+If, for any reason, you feel the need to bail on your reference genomes and chosen metagenomic samples, you can use the following as a fall-back data set.  After the mid-term, when I post an example solution, it will be based on this dataset.  If you're particularly enterprising, you may just want to use it to test your methods and scripts on another dataset.  In either case, here is a full description and you can use it if you need/want it for your midterm.
+ 
+The HMP mock community datasets are artificially created metagenomic datasets where precisely controlled amounts of DNA from selected reference organisms were mixed in a sample, which was then sequenced using both 454 and Illumina technologies.  For each of these sequencing types, there were both 'even' and 'staggered' samples.  In the 'even' samples, the same quantity of DNA from each organism was used, while the 'staggered' samples have varying (but defined) quantities of each organism.
+ 
+This is useful since it gives a defined way to validate many different analysis tools where a 'known' answer exists.  This improves upon previous attempts at mock community creation which relied on artificial 'reads' made by chopping up the known sequences of reference genome.
+ 
+The make-up of the HMP mock communities is described here:
+ 
+    http://www.hmpdacc.org/HMMC/
+    http://downloads.hmpdacc.org/data/HMMC/HMPRP_sT1-Mock.pdf
+ 
+All mock community samples have been placed on DIAG here:
+ 
+    /diag/projects/hopkins_410.734/shared/hmp_mock_community_project/
+ 
+Illumina staggered
+    sample:     SRS121012
+    accession:  SRX055381
+    run:        SRR172903
+    seqs:       7,932,819
+    bases:      595M
+    source:     ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR172/SRR172903
+ 
+Illumina even
+    sample:     SRS121011
+    accession:  SRX055380
+    run:        SRR172902
+    seqs:       6,562,065
+    bases:      492.2M
+    source:     ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR172/SRR172902
+ 
+454 staggered
+    sample:     SRS121012
+    accession:  SRX030842
+    run:        SRR072232
+    seqs:       1,225,169
+    bases:      653.1M
+    source:     ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR072/SRR072232
+ 
+454 even
+    sample:     SRS121011
+    accession:  SRX030841
+    run:        SRR072233
+    seqs:       1,386,198
+    bases:      740.5M
+ 
+All of these files are in SRA format and need to be converted using the SRA Toolkit.  Example command:
+ 
+    /diag/software/sratoolkit/bin/fastq-dump --split-3 SRR172902.sra
+ 
+ 
+Here are the selected reference genomes to play with.  The table in the PDF above lists them all.
+ 
+    Acinetobacter baumannii ATCC 17978
+        ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Acinetobacter_baumannii_ATCC_17978_uid58731/
+ 
+    Bacillus cereus ATCC 10987
+        ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Bacillus_cereus_ATCC_10987_uid57673/
+ 
+    Bacteroides vulgatus ATCC 8482
+        ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Bacteroides_vulgatus_ATCC_8482_uid58253/
+ 
+    Methanobrevibacter smithii ATCC 35061
+        ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Methanobrevibacter_smithii_ATCC_35061_uid58827/
+ 
+    Staphylococcus epidermidis ATCC 12228
+        ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Staphylococcus_epidermidis_ATCC_12228_uid57861/
+ 

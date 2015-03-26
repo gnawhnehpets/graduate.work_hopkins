@@ -1,0 +1,62 @@
+BLASTP 2.2.28+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: R33V09Y3015
+
+
+Database: Non-redundant UniProtKB/SwissProt sequences
+           454,929 sequences; 169,639,433 total letters
+
+Query= 
+Length=15
+
+
+<b>No significant similarity found.</b> For reasons why, <A HREF = "Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ"><b>click here</A>.</b><br><br>
+  Database: Non-redundant UniProtKB/SwissProt sequences
+    Posted date:  Apr 18, 2013  12:12 PM
+  Number of letters in database: 11,404,975
+  Number of sequences in database:  20,662
+
+Lambda      K        H
+   0.332    0.135    0.581 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 20662
+Number of Hits to DB: 135305
+Number of extensions: 1372
+Number of successful extensions: 83
+Number of sequences better than 1e-10: 0
+Number of HSP's better than 1e-10 without gapping: 0
+Number of HSP's gapped: 83
+Number of HSP's successfully gapped: 0
+Length of query: 15
+Length of database: 11404975
+Length adjustment: 0
+Effective length of query: 15
+Effective length of database: 11404975
+Effective search space: 171074625
+Effective search space used: 171074625
+T: 11
+A: 40
+X1: 15 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 39 (19.6 bits)
+S2: 146 (60.8 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

@@ -1,0 +1,9 @@
+Your script was easy to follow but the numbers you posted were for the wrong sample (the assignment said for SRS012902.  I ran the solution on your SRS012291 singleton instead and found your numbers off.  They should have been:
+ 
+Input file format: FASTAQ
+Total sequences found: 138391
+Total residues found : 10493589
+ 
+I have posted a solution for you to look over and/or use here:
+ 
+/diag/projects/hopkins_410.734/solutions/week03/

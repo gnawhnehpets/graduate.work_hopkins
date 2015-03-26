@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Unit 09, AJAX demo</title>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/search_product.css" />
+<!-- The original jquery source does not support autocomplete.
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+-->
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+</head>
+
+<body id="main">
+
+	<h1>E. coli gene search</h1>
+    <form name="gene_search" id="gene_search" action="">
+        <input name="search_term" id="search_term" type="search" value="" autofocus="autofocus" placeholder="Enter a search term" autocomplete="off"/>
+        <input name="submit" type="submit" id="submit" value="submit">
+    </form>
+    <section id='results'>
+        <p>
+            <span id='match_count'>0</span> match(es) found.
+        </p>
+        <table>
+            <thead>
+            <tr>
+                <td>Locus tag</td>
+                <td>Product</td>
+            </tr>
+            </thead>
+            <tbody>
+                <!-- this will be filled in by javascript when there are results -->
+            </tbody>
+    </section>
+
+</body>
+
+</html>

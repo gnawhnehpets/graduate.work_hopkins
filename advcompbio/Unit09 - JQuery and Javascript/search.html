@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Unit 09, AJAX demo</title>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/search_product.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/black-tie/jquery-ui.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+</head>
+
+<body id="main">
+  
+	<h4>E. coli gene search</h4>
+    <form name="gene_search" id="gene_search" action="">
+        <input id="search_term" name="search_term" type="search" value="" autofocus="autofocus" placeholder="Enter a search term"/>
+        <input name="submit" type="submit" id="submit" value="submit">
+    </form>
+    <section id='results'>
+        <p>
+            <span id='match_count'>0</span> match(es) found.
+        </p>
+        <table>
+            <thead>
+            <tr>
+                <td>Locus tag</td>
+                <td>Product</td>
+            </tr>
+            </thead>
+            <tbody>
+                <!-- this will be filled in by javascript when there are results -->
+            </tbody>
+    </section>
+
+</body>
+
+</html>

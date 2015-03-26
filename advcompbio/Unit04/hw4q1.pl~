@@ -1,0 +1,27 @@
+#!usr/bin/perl
+use strict;
+use warnings;
+
+my $file = "test.txt";
+
+if($file =~ m/.gz/){
+    open(INPUT, "gunzip -c $file |") or die "Can't open pipe to file";
+}else{
+    open(INPUT, $file) or die "Can't open file.\n";
+}
+capture_id();
+
+sub capture_id{
+#    my ($x) = (@_);
+#    my $printable = 0;
+#    my $count = 0;
+#If $printable = 1, print line; otherwise, don't print
+    while (<INPUT>) {
+#	if ($_ =~ /^>.*($x)/) {
+	if(/>gi_(\w+)/){
+	    print $1."\n";
+	}else{
+	    print "No ID captured.\n";
+	}
+    }
+}

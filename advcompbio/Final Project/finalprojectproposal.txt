@@ -1,0 +1,49 @@
+My proposal for the final project includes the use of the following:
+- Perl CGI programming (CGI/HTML templates)
+- Relational database schema design and use of MySQL
+- Perl DBI to access MySQL database
+
+The main goal of my project is to provide tools for the basic initial
+steps for sequence analysis (comparative analysis via BLAST, functional
+and/or structural analysis of any proteins encoded within sequence, and
+identifying any restriction sites within the sequence).
+
+The data manipulation steps are as follow:
+
+1) User inputs sequence in a cgi web-based search form. 
+
+2) A BLAST search is performed, and first 1000 results are stored 
+within a database. I actually tried this using BioPerl and it seems
+the default search is BLASTP. I have yet to find a way to perform a
+BLASTN search using Bioperl.
+
+3a) User can then search database based on an attribute or a 
+combination of several attributes:
+	a) description name/organism
+	b) annealing temperature (+/- buffer by user; default +/- 1 degrees)
+	c) gc content (+/- buffer set by user; default +/- 1 percent)
+	d) threshold E-value
+	e) minimum max score/identity
+
+3b) If a match is found based off user input and BLAST search, the
+accession number of the match is used to download the Genbank file.
+- The match/motif is bolded/underlined/highlighted in the annotated
+genome
+
+4) Display restriction map where unique restriction sites are bolded/
+underlined/highlighted
+* Would require parsing a tab-limited/XML file containing enzymes
+and specific recognition sites
+
+5) Proteins encoded within sequence will be returned (stop/stop codon).
+Further protein analysis can be carried out with different tools. I've 
+currently found several analysis tools with EMBL-EBI 
+<http://www.ebi.ac.uk/Tools/webservices/> for structural and functional
+analysis, but I've yet to test them out for functionality/usability.
+
+I have a feeling I may be trying to cover way too much territory at once,
+so I'm open to your feedback.
+
+You can use NCBI's EUtilities and link system to provide a lot, but none of it is very quick
+The most scalable way for this course would probably be to use BioPerl's remote blast api
+Then iterate the results, building JSON, and return it to the interface

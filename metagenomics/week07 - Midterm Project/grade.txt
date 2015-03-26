@@ -1,0 +1,17 @@
+- Path and description of metagenomic sequence data files. If you chose a subset of a large sample, explain why and how the subset was created.
+ 
+I'm glad you took a moment to give some experimental background to your sample choice instead of just listing them.  I'm intrigued by this sample set, that the make-up of the habitat has the potential for dramatically changing in 7 days due solely to a temperature change.
+ 
+- Description of algorithms you chose to align the reads to your reference genomes along with the options/parameters used. You should also describe the output format for each that you used.
+ 
+All accounted for here.  I'm glad you accounted for the percent identity variations between programs and used the global option on FR-HIT.
+ 
+- A well-written, documented script that reads a read-to-reference alignment result file and produces a fragment recruitment plot.
+ 
+These look good, and the your presentation of each of the days on the same graph next to one another makes for far easier comparisons than if they were done in separate files.  These were probably my favorite plot displays in the class.
+ 
+- A write-up which includes these things as well as the analysis of your sample habitat after using the script on it. It should include screenshots or embedded images of your FRPs. Which of your reference genomes is most represented in your sample? What percentage of the genome is covered by your reads? If you used multiple samples from your chosen microbiome did their community profiles differ? What did you learn from this process?
+ 
+Allowing for *some* divergence do to natural rates of change in each genome, what would you say is the percent identity required to map a read to an organism in order to assert that the read truly originated from that reference organism or its closest neighbor?  I think at the lowest it would be 80% identity, which would also include sequencing error.  At even 70%, how would you comment on your habitat's coverage of these reference genomes?
+ 
+I'm glad you enjoyed this project.  Though you didn't see a lot of difference between the sample content on different thaw dates, I hope the process was useful.  

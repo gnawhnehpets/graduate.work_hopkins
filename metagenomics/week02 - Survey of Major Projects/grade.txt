@@ -1,0 +1,3 @@
+ (-2 points) - This deduction is because their the attached script or the pasted text of one would execute for me.  Both had compilation errors related to the input file, so I couldn't test them as is.  I used the pasted version and uncommented one of your "my $file" definitions, also commenting out the portion prompting the user for the input file name.  Then it worked.
+ 
+I'm glad to see that your solution for supporting compressed files didn't require a full decompression before you ran your statistics, which would have significantly increased disk usage.

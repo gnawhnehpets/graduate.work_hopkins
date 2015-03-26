@@ -1,0 +1,6 @@
+#Script generates a basic project directory tree using a loop.
+
+for x in $(seq 1 3); do
+	mkdir directory_${x}
+	echo "Created directory named directory_$x"
+done

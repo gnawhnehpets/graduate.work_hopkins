@@ -1,0 +1,8 @@
+[Database]
+DB = 'shwang26_chado'
+[Host]
+Host = 'localhost'
+[User]
+User = 'shwang26'
+[Password]
+Password = 'Hopkins1002'

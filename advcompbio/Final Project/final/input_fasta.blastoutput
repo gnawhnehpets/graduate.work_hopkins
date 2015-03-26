@@ -1,0 +1,139 @@
+BLASTN 2.2.28+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: SE2ED0B001R
+
+
+Database: Nucleotide collection (nt)
+           26,000,382 sequences; 49,159,429,833 total letters
+Query= input_fasta
+
+Length=23
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|AC217585.1|  Populus trichocarpa clone POP021-H02, complete...  33.7       10
+gb|JX997168.1|  Acanthocystis turfacea Chlorella virus GM0701....  31.9       35
+gb|CP001895.1|  Pantoea vagans C9-1 plasmid pPag3, complete se...  31.9       35
+ref|XM_002790593.1|  Paracoccidioides brasiliensis Pb01 5-oxop...  31.9       35
+ref|XM_002293881.1|  Thalassiosira pseudonana CCMP1335 predict...  31.9       35
+gb|FJ209674.1|  Uncultured bacterium clone ISA00485 nitrate re...  31.9       35
+
+ALIGNMENTS
+>gb|AC217585.1| Populus trichocarpa clone POP021-H02, complete sequence
+Length=150178
+
+ Score = 33.7 bits (36),  Expect =    10
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  1      GGGGAAGTCGTGTGAAGT  18
+              ||||||||||||||||||
+Sbjct  97058  GGGGAAGTCGTGTGAAGT  97041
+
+
+>gb|JX997168.1| Acanthocystis turfacea Chlorella virus GM0701.1, partial genome
+Length=315239
+
+ Score = 31.9 bits (34),  Expect =    35
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Minus
+
+Query  4       GAAGTCGTGTGAAGTAC  20
+               |||||||||||||||||
+Sbjct  296641  GAAGTCGTGTGAAGTAC  296625
+
+
+>gb|CP001895.1| Pantoea vagans C9-1 plasmid pPag3, complete sequence
+Length=529676
+
+ Score = 31.9 bits (34),  Expect =    35
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  2       GGGAAGTCGTGTGAAGTACG  21
+               |||| |||||||||||||||
+Sbjct  492028  GGGAGGTCGTGTGAAGTACG  492009
+
+
+>ref|XM_002790593.1| Paracoccidioides brasiliensis Pb01 5-oxoprolinase, mRNA
+Length=4168
+
+ Score = 31.9 bits (34),  Expect =    35
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1     GGGGAAGTCGTGTGAAG  17
+             |||||||||||||||||
+Sbjct  3966  GGGGAAGTCGTGTGAAG  3982
+
+
+>ref|XM_002293881.1| Thalassiosira pseudonana CCMP1335 predicted protein, mRNA
+Length=618
+
+ Score = 31.9 bits (34),  Expect =    35
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  6    AGTCGTGTGAAGTACGT  22
+            |||||||||||||||||
+Sbjct  568  AGTCGTGTGAAGTACGT  584
+
+
+>gb|FJ209674.1| Uncultured bacterium clone ISA00485 nitrate reductase alpha subunit 
+(narG) gene, partial cds
+Length=628
+
+ Score = 31.9 bits (34),  Expect =    35
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  3    GGAAGTCGTGTGAAGTA  19
+            |||||||||||||||||
+Sbjct  173  GGAAGTCGTGTGAAGTA  189
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  May 4, 2013  12:13 PM
+  Number of letters in database: 49,159,429,833
+  Number of sequences in database:  26,000,382
+
+Lambda      K        H
+   0.634    0.408    0.912 
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+Matrix: blastn matrix:2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Number of Sequences: 26000382
+Number of Hits to DB: 461361
+Number of extensions: 391
+Number of successful extensions: 391
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 391
+Number of HSP's successfully gapped: 1
+Length of query: 23
+Length of database: 49159429833
+Length adjustment: 20
+Effective length of query: 3
+Effective length of database: 48639422193
+Effective search space: 145918266579
+Effective search space used: 145918266579
+A: 0
+X1: 22 (20.1 bits)
+X2: 33 (29.8 bits)
+X3: 110 (99.2 bits)
+S1: 25 (23.8 bits)
+S2: 33 (31.0 bits)
+
+
+
+

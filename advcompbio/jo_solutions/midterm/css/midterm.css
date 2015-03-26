@@ -1,0 +1,18 @@
+div#main {
+    padding: 10px;
+}
+
+table {
+    margin: 15px 0 15px 50px;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid rgb(200,200,200);
+    padding: 2px 5px;
+}
+
+thead td {
+    font-weight: bold;
+    text-align: center;
+}

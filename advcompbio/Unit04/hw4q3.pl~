@@ -1,0 +1,10 @@
+#! /usr/bin/perl
+use strict;
+use warnings;
+use Geo::Weather;
+
+my $weather = new Geo::Weather;
+
+$weather->get_weather('Baltimore','MD');
+
+print $weather->report();

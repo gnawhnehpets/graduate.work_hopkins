@@ -1,0 +1,4 @@
+gb|JX997168.1| Acanthocystis turfacea Chlorella virus GM0701.... |31.9|35
+gb|CP001895.1| Pantoea vagans C9-1 plasmid pPag3, complete se... |31.9|35
+ref|XM_002293881.1| Thalassiosira pseudonana CCMP1335 predict... |31.9|35
+ref|XM_002790593.1| Paracoccidioides brasiliensis Pb01 5-oxop... |31.9|35

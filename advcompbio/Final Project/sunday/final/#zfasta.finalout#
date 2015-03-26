@@ -1,0 +1,808 @@
+BLASTN 2.2.28+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: R6168M6U015
+
+
+Database: Nucleotide collection (nt)
+           25,196,777 sequences; 48,466,568,417 total letters
+Query= zfasta
+
+Length=28
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|CP003066.1|  Thermoanaerobacterium thermosaccharolyticum M0...  39.2    0.23 
+gb|CP002171.1|  Thermoanaerobacterium thermosaccharolyticum DS...  39.2    0.23 
+gb|GAGX01056754.1|  Cottus gobio Bullhead_contig_56805 transcr...  37.4    0.82 
+gb|JN952439.1|  Mus musculus targeted non-conditional, lacZ-ta...  35.6    2.9  
+gb|JN949293.1|  Mus musculus targeted KO-first, conditional re...  35.6    2.9  
+gb|CP001146.1|  Dictyoglomus thermophilum H-6-12, complete genome  35.6    2.9  
+gb|AC192754.2|  Gallus gallus BAC clone CH261-87N12 from chrom...  35.6    2.9  
+gb|AC101004.6|  Mus musculus, clone RP23-79E5, complete sequence   35.6    2.9  
+gb|AC157351.11|  Mus musculus chromosome 5, clone RP23-219K16,...  35.6    2.9  
+emb|AL356486.12|  Human DNA sequence from clone RP11-721F14 on...  35.6    2.9  
+dbj|AP003856.4|  Oryza sativa Japonica Group genomic DNA, chro...  35.6    2.9  
+gb|AC025097.41|  Homo sapiens 12 BAC RP11-285E4 (Roswell Park ...  35.6    2.9  
+dbj|AP003021.2|  Oryza sativa Japonica Group genomic DNA, chro...  35.6    2.9  
+gb|AC026756.15|AC026756  Homo sapiens chromosome 13 clone RP11...  35.6    2.9  
+gb|GAGX01029596.1|  Cottus gobio Bullhead_contig_29636 transcr...  33.7    10.0 
+gb|GAGG010552273.1|  Anolis carolinensis k36:183852 transcribe...  33.7    10.0 
+gb|GAGC011029760.1|  Anolis carolinensis k41:14193588 transcri...  33.7    10.0 
+gb|GACT011265560.1|  Anolis carolinensis k51:3496138 transcrib...  33.7    10.0 
+gb|GAGC011556484.1|  Anolis carolinensis k56:6279868 transcrib...  33.7    10.0 
+gb|GAGC011730717.1|  Anolis carolinensis k71:868749 transcribe...  33.7    10.0 
+gb|GAGC011743006.1|  Anolis carolinensis k76:1555000 transcrib...  33.7    10.0 
+gb|GAGC011800326.1|  Anolis carolinensis k91:192142 transcribe...  33.7    10.0 
+gb|AC245148.2|  Homo sapiens BAC clone CH17-77N3 from chromoso...  33.7    10.0 
+gb|CP002687.1|  Arabidopsis thaliana chromosome 4, complete se...  33.7    10.0 
+gb|CP002685.1|  Arabidopsis thaliana chromosome 2, complete se...  33.7    10.0 
+gb|AC244145.2|  Homo sapiens BAC clone CH17-175P20 from chromo...  33.7    10.0 
+ref|XR_044772.3|  PREDICTED: Danio rerio si:ch211-250o15.2 (si...  33.7    10.0 
+emb|FQ790271.1|  Botryotinia fuckeliana isolate T4 SuperContig...  33.7    10.0 
+ref|XM_003175933.1|  Arthroderma gypseum CBS 118893 hypothetic...  33.7    10.0 
+ref|XM_003107385.1|  Caenorhabditis remanei hypothetical prote...  33.7    10.0 
+emb|FQ312005.1|  Bacteriovorax marinus SJ genome                   33.7    10.0 
+ref|XM_002868456.1|  Arabidopsis lyrata subsp. lyrata hypothet...  33.7    10.0 
+emb|FP017218.6|  Zebrafish DNA sequence from clone CH73-385H6 ...  33.7    10.0 
+gb|EU180847.1|  Boechera divaricarpa clone BAC33, complete seq...  33.7    10.0 
+ref|NG_008033.1|  Homo sapiens collagen, type XI, alpha 1 (COL...  33.7    10.0 
+gb|EU162611.1|  Capsella rubella clone contig46 BAC sequence       33.7    10.0 
+gb|AC215646.1|  Populus trichocarpa clone ACSB185-A21, complet...  33.7    10.0 
+gb|AC215629.1|  Populus trichocarpa clone POP044-D07, complete...  33.7    10.0 
+ref|XM_001451859.1|  Paramecium tetraurelia hypothetical prote...  33.7    10.0 
+ref|XM_001427508.1|  Paramecium tetraurelia hypothetical prote...  33.7    10.0 
+gb|AC192819.2|  Callithrix jacchus BAC clone CH259-84H12 from ...  33.7    10.0 
+gb|AC102413.8|  Mus musculus chromosome 3, clone RP24-462F18, ...  33.7    10.0 
+gb|AC099735.47|  Mus musculus chromosome 1, clone RP23-218I9, ...  33.7    10.0 
+gb|AC007640.13|  Homo sapiens chromosome 11, clone RP11-89A1, ...  33.7    10.0 
+gb|AC019063.4|  Homo sapiens BAC clone RP11-144H20 from 7, com...  33.7    10.0 
+gb|AC130312.3|  Homo sapiens chromosome 11, clone RP11-97G1, c...  33.7    10.0 
+gb|AC144523.2|  Homo sapiens BAC clone RP11-1302F12 from UL, c...  33.7    10.0 
+emb|CR933520.10|  Zebrafish DNA sequence from clone CH211-28A2...  33.7    10.0 
+gb|AC159966.5|  Mus musculus chromosome 1, clone RP23-287P12, ...  33.7    10.0 
+ref|NM_117062.1|  Arabidopsis thaliana AIG1-like protein (AT4G...  33.7    10.0 
+gb|AC093150.4|  Homo sapiens chromosome 1 clone RP11-34I24, co...  33.7    10.0 
+gb|AC004561.3|  Arabidopsis thaliana chromosome 2 clone F16P2 ...  33.7    10.0 
+gb|AC025175.4|  Homo sapiens chromosome 5 clone CTD-2081C10, c...  33.7    10.0 
+emb|CR387936.8|  Zebrafish DNA sequence from clone CH211-85P6 ...  33.7    10.0 
+emb|BX324001.6|  Zebrafish DNA sequence from clone CH211-209D2...  33.7    10.0 
+emb|BX510917.5|  Zebrafish DNA sequence from clone CH211-250O1...  33.7    10.0 
+emb|AJ627213.1|  Gallus gallus primary C-C chemokine receptor ...  33.7    10.0 
+dbj|AP006724.1|  Homo sapiens genomic DNA, chromosome 11 clone...  33.7    10.0 
+gb|AC138697.2|  Homo sapiens chromosome 11, clone RP11-242O20,...  33.7    10.0 
+gb|AC134982.5|  Homo sapiens chromosome 11, clone RP11-57A24, ...  33.7    10.0 
+emb|AL161516.2|  Arabidopsis thaliana DNA chromosome 4, contig...  33.7    10.0 
+emb|AL113058.1|  Botrytis cinerea strain T4 cDNA library           33.7    10.0 
+emb|AL049481.1|  Arabidopsis thaliana DNA chromosome 4, BAC cl...  33.7    10.0 
+gb|AC157939.15|  Mus musculus chromosome 3, clone RP23-51P17, ...  33.7    10.0 
+gb|AC122275.4|  Mus musculus BAC clone RP23-229G17 from 15, co...  33.7    10.0 
+dbj|AP006281.2|  Homo sapiens genomic DNA, chromosome 11 clone...  33.7    10.0 
+emb|AL928674.5|  Zebrafish DNA sequence from clone CH211-10E2 ...  33.7    10.0 
+emb|AL713886.1|  Mus musculus chromosome 11 region in the Om l...  33.7    10.0 
+emb|AL713881.1|  Mus musculus chromosome 11 region in the Om l...  33.7    10.0 
+gb|GAGY01006650.1|  Odocoileus virginianus contig_6656 transcr...  31.9       35
+ref|XM_004301885.1|  PREDICTED: Fragaria vesca subsp. vesca un...  31.9       35
+ref|XM_004301058.1|  PREDICTED: Fragaria vesca subsp. vesca un...  31.9       35
+gb|GAGG010289518.1|  Anolis carolinensis k26:5672413 transcrib...  31.9       35
+gb|GACT010147972.1|  Anolis carolinensis k26:11979092 transcri...  31.9       35
+gb|GAGC010585158.1|  Anolis carolinensis k31:20712429 transcri...  31.9       35
+gb|GACT010388628.1|  Anolis carolinensis k26:4916972 transcrib...  31.9       35
+gb|GACT010427553.1|  Anolis carolinensis k26:6975590 transcrib...  31.9       35
+gb|GAGC010739130.1|  Anolis carolinensis k36:11192919 transcri...  31.9       35
+gb|GACT010507410.1|  Anolis carolinensis k31:11436969 transcri...  31.9       35
+gb|GACT010541186.1|  Anolis carolinensis k31:13588399 transcri...  31.9       35
+gb|APGK01038907.1|  Dendroctonus ponderosae Seq01038917, whole...  31.9       35
+gb|GAGC011047844.1|  Anolis carolinensis k41:2521939 transcrib...  31.9       35
+gb|GAGA01135255.1|  Anolis carolinensis k26_6156532 transcribe...  31.9       35
+gb|GAFU01008419.1|  Spodoptera exigua comp10384_c0_seq1 transc...  31.9       35
+ref|XM_004166779.1|  PREDICTED: Cucumis sativus cytochrome P45...  31.9       35
+ref|XM_002198330.2|  PREDICTED: Taeniopygia guttata parathyroi...  31.9       35
+ref|XM_002194918.2|  PREDICTED: Taeniopygia guttata glutamate ...  31.9       35
+ref|XM_004147924.1|  PREDICTED: Cucumis sativus cytochrome P45...  31.9       35
+gb|CP003263.1|  Candidatus Uzinura diaspidicola str. ASNER, co...  31.9       35
+gb|CP003944.1|  Dactylococcopsis salina PCC 8305, complete genome  31.9       35
+ref|XM_003921291.1|  PREDICTED: Saimiri boliviensis boliviensi...  31.9       35
+gb|JX174449.1|  Linum usitatissimum clone LuBAC346C18, complet...  31.9       35
+emb|FO082271.1|  Bathycoccus prasinos genomic : Chromosome_8       31.9       35
+gb|CP003639.1|  Desulfosporosinus acidiphilus SJ4, complete ge...  31.9       35
+gb|AC244525.6|  Solanum lycopersicum strain Heinz 1706 chromos...  31.9       35
+gb|JN773790.1|  Cyprinus carpio clone 844279 microsatellite se...  31.9       35
+ref|XM_003683268.1|  Torulaspora delbrueckii hypothetical prot...  31.9       35
+gb|JN378720.1|  Macropus eugenii HOXC gene cluster, complete s...  31.9       35
+emb|HE601631.1|  Schistosoma mansoni strain Puerto Rico chromo...  31.9       35
+emb|HE601626.1|  Schistosoma mansoni strain Puerto Rico chromo...  31.9       35
+
+ALIGNMENTS
+>gb|CP003066.1| Thermoanaerobacterium thermosaccharolyticum M0795, complete genome
+Length=2783395
+
+ Features in this part of subject sequence:
+   glutamine synthetase
+
+ Score = 39.2 bits (42),  Expect = 0.23
+ Identities = 25/26 (96%), Gaps = 1/26 (4%)
+ Strand=Plus/Minus
+
+Query  1        AAAGAGAGAGTCTTCCAAATATCTCT  26
+                |||||||| |||||||||||||||||
+Sbjct  1162615  AAAGAGAG-GTCTTCCAAATATCTCT  1162591
+
+
+>gb|CP002171.1| Thermoanaerobacterium thermosaccharolyticum DSM 571, complete 
+genome
+Length=2785752
+
+ Features in this part of subject sequence:
+   glutamine synthetase catalytic region
+
+ Score = 39.2 bits (42),  Expect = 0.23
+ Identities = 25/26 (96%), Gaps = 1/26 (4%) Strand=Plus/Minus
+
+Query  1        AAAGAGAGAGTCTTCCAAATATCTCT  26
+                |||||||| |||||||||||||||||
+Sbjct  1236454  AAAGAGAG-GTCTTCCAAATATCTCT  1236430
+
+
+>gb|GAGX01056754.1| TSA: Cottus gobio Bullhead_contig_56805 transcribed RNA sequence
+Length=362
+
+ Score = 37.4 bits (40),  Expect = 0.82
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  3   AGAGAGAGTCTTCCAAATAT  22
+           ||||||||||||||||||||
+Sbjct  14  AGAGAGAGTCTTCCAAATAT  33
+
+
+>gb|JN952439.1| Mus musculus targeted non-conditional, lacZ-tagged mutant allele 
+Slit2:tm1e(KOMP)Ucd; transgenic
+Length=38252
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9      AGTCTTCCAAATATCTCTC  27
+              |||||||||||||||||||
+Sbjct  31278  AGTCTTCCAAATATCTCTC  31296
+
+
+>gb|JN949293.1| Mus musculus targeted KO-first, conditional ready, lacZ-tagged 
+mutant allele Slit2:tm1a(KOMP)Ucd; transgenic
+Length=38309
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9      AGTCTTCCAAATATCTCTC  27
+              |||||||||||||||||||
+Sbjct  31335  AGTCTTCCAAATATCTCTC  31353
+
+
+>gb|CP001146.1| Dictyoglomus thermophilum H-6-12, complete genome
+Length=1959987
+
+ Features in this part of subject sequence:
+   prolyl-tRNA synthetase
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Minus
+
+Query  5       AGAGAGTCTTCCAAATATCTCTCA  28
+               |||||||||||  |||||||||||
+Sbjct  680885  AGAGAGTCTTCTGAATATCTCTCA  680862
+
+
+>gb|AC192754.2| Gallus gallus BAC clone CH261-87N12 from chromosome z, complete 
+sequence
+Length=219391
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 26/29 (90%), Gaps = 1/29 (3%)
+ Strand=Plus/Minus
+
+Query  1      AAAGAGAGAGTCTT-CCAAATATCTCTCA  28
+              |||| |||||| || ||||||||||||||
+Sbjct  96933  AAAGGGAGAGTATTTCCAAATATCTCTCA  96905
+
+
+>gb|AC101004.6| Mus musculus, clone RP23-79E5, complete sequence
+Length=220468
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Minus
+
+Query  9       AGTCTTCCAAATATCTCTC  27
+               |||||||||||||||||||
+Sbjct  220178  AGTCTTCCAAATATCTCTC  220160
+
+
+>gb|AC157351.11| Mus musculus chromosome 5, clone RP23-219K16, complete sequence
+Length=196331
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9       AGTCTTCCAAATATCTCTC  27
+               |||||||||||||||||||
+Sbjct  161672  AGTCTTCCAAATATCTCTC  161690
+
+
+>emb|AL356486.12| Human DNA sequence from clone RP11-721F14 on chromosome 13, complete 
+sequence
+Length=67645
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  10     GTCTTCCAAATATCTCTCA  28
+              |||||||||||||||||||
+Sbjct  50677  GTCTTCCAAATATCTCTCA  50695
+
+
+>dbj|AP003856.4| Oryza sativa Japonica Group genomic DNA, chromosome 1, PAC clone:P0697D09
+Length=158479
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  10     GTCTTCCAAATATCTCTCA  28
+              |||||||||||||||||||
+Sbjct  49750  GTCTTCCAAATATCTCTCA  49768
+
+
+>gb|AC025097.41| Homo sapiens 12 BAC RP11-285E4 (Roswell Park Cancer Institute 
+Human BAC Library) complete sequence
+Length=203530
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 21/22 (95%), Gaps = 0/22 (0%)
+ Strand=Plus/Plus
+
+Query  4       GAGAGAGTCTTCCAAATATCTC  25
+               |||||||||||| |||||||||
+Sbjct  159563  GAGAGAGTCTTCAAAATATCTC  159584
+
+
+>dbj|AP003021.2| Oryza sativa Japonica Group genomic DNA, chromosome 1, PAC clone:P0503E05
+Length=168258
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  10      GTCTTCCAAATATCTCTCA  28
+               |||||||||||||||||||
+Sbjct  100968  GTCTTCCAAATATCTCTCA  100986
+
+
+>gb|AC026756.15|AC026756 Homo sapiens chromosome 13 clone RP11-286P8, complete sequence
+Length=156555
+
+ Score = 35.6 bits (38),  Expect = 2.9
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Minus
+
+Query  10     GTCTTCCAAATATCTCTCA  28
+              |||||||||||||||||||
+Sbjct  94603  GTCTTCCAAATATCTCTCA  94585
+
+
+>gb|GAGX01029596.1| TSA: Cottus gobio Bullhead_contig_29636 transcribed RNA sequence
+Length=440
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 23/26 (88%), Gaps = 0/26 (0%)
+ Strand=Plus/Minus
+
+Query  1    AAAGAGAGAGTCTTCCAAATATCTCT  26
+            || ||| | |||||||||||||||||
+Sbjct  418  AAGGAGCGCGTCTTCCAAATATCTCT  393
+
+
+>gb|GAGG010552273.1| TSA: Anolis carolinensis k36:183852 transcribed RNA sequence
+Length=284
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  3    AGAGAGAGTCTTCCAAATATCTC  25
+            ||||| |||||||||||| ||||
+Sbjct  106  AGAGAAAGTCTTCCAAATTTCTC  128
+
+
+>gb|GAGC011029760.1| TSA: Anolis carolinensis k41:14193588 transcribed RNA sequence
+Length=414
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  3    AGAGAGAGTCTTCCAAATATCTC  25
+            ||||| |||||||||||| ||||
+Sbjct  148  AGAGAAAGTCTTCCAAATTTCTC  126
+
+
+>gb|GACT011265560.1| TSA: Anolis carolinensis k51:3496138 transcribed RNA sequence
+Length=1215
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  3    AGAGAGAGTCTTCCAAATATCTC  25
+            ||||| |||||||||||| ||||
+Sbjct  942  AGAGAAAGTCTTCCAAATTTCTC  920
+
+
+>gb|GAGC011556484.1| TSA: Anolis carolinensis k56:6279868 transcribed RNA sequence
+Length=640
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  3    AGAGAGAGTCTTCCAAATATCTC  25
+            ||||| |||||||||||| ||||
+Sbjct  432  AGAGAAAGTCTTCCAAATTTCTC  410
+
+
+>gb|GAGC011730717.1| TSA: Anolis carolinensis k71:868749 transcribed RNA sequence
+Length=1137
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  3    AGAGAGAGTCTTCCAAATATCTC  25
+            ||||| |||||||||||| ||||
+Sbjct  929  AGAGAAAGTCTTCCAAATTTCTC  907
+
+
+>gb|GAGC011743006.1| TSA: Anolis carolinensis k76:1555000 transcribed RNA sequence
+Length=538
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  3    AGAGAGAGTCTTCCAAATATCTC  25
+            ||||| |||||||||||| ||||
+Sbjct  304  AGAGAAAGTCTTCCAAATTTCTC  282
+
+
+>gb|GAGC011800326.1| TSA: Anolis carolinensis k91:192142 transcribed RNA sequence
+Length=398
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  3   AGAGAGAGTCTTCCAAATATCTC  25
+           ||||| |||||||||||| ||||
+Sbjct  68  AGAGAAAGTCTTCCAAATTTCTC  90
+
+
+>gb|AC245148.2| Homo sapiens BAC clone CH17-77N3 from chromosome 7, complete 
+sequence
+Length=200041
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9      AGTCTTCCAAATATCTCT  26
+              ||||||||||||||||||
+Sbjct  33883  AGTCTTCCAAATATCTCT  33900
+
+
+>gb|CP002687.1| Arabidopsis thaliana chromosome 4, complete sequence
+Length=18585056
+
+ Features in this part of subject sequence:
+   AIG1-like protein
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  6        GAGAGTCTTCCAAATATCTCTCA  28
+                |||||||||||||||||  ||||
+Sbjct  6232435  GAGAGTCTTCCAAATATTCCTCA  6232413
+
+
+>gb|CP002685.1| Arabidopsis thaliana chromosome 2, complete sequence
+Length=19698289
+
+ Features flanking this part of subject sequence:
+   978 bp at 5' side: laccase 2
+   2698 bp at 3' side: pumilio 3
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  1         AAAGAGAGAGTCTTCCAA  18
+                 ||||||||||||||||||
+Sbjct  12528694  AAAGAGAGAGTCTTCCAA  12528677
+
+
+>gb|AC244145.2| Homo sapiens BAC clone CH17-175P20 from chromosome 7, complete 
+sequence
+Length=213118
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9      AGTCTTCCAAATATCTCT  26
+              ||||||||||||||||||
+Sbjct  75456  AGTCTTCCAAATATCTCT  75473
+
+
+ Score = 31.9 bits (34),  Expect =    35
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  11     TCTTCCAAATATCTCTC  27
+              |||||||||||||||||
+Sbjct  29333  TCTTCCAAATATCTCTC  29349
+
+
+>ref|XR_044772.3| PREDICTED: Danio rerio si:ch211-250o15.2 (si:ch211-250o15.2), 
+miscRNA
+Length=6589
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 22/23 (96%), Gaps = 1/23 (4%)
+ Strand=Plus/Minus
+
+Query  1    AAAGAGAGAGTCTTCCAAATATC  23
+            |||||| ||||||||||||||||
+Sbjct  485  AAAGAG-GAGTCTTCCAAATATC  464
+
+
+>emb|FQ790271.1| Botryotinia fuckeliana isolate T4 SuperContig_50_1 genomic supercontig, 
+whole genome
+Length=898927
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 24/28 (86%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
+
+Query  1       AAAGAGAGAGTCTTCCAAATATCTCTCA  28
+               |||||| ||||  |||||||||||| ||
+Sbjct  452312  AAAGAGGGAGTTCTCCAAATATCTCCCA  452339
+
+
+>ref|XM_003175933.1| Arthroderma gypseum CBS 118893 hypothetical protein (MGYG_00073) 
+mRNA, complete cds
+Length=3348
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  1    AAAGAGAGAGTCTTCCAAATA  21
+            |||||| ||||||||||||||
+Sbjct  718  AAAGAGGGAGTCTTCCAAATA  738
+
+
+>ref|XM_003107385.1| Caenorhabditis remanei hypothetical protein (CRE_13903) mRNA, 
+complete cds
+Length=1281
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  6    GAGAGTCTTCCAAATATCTCT  26
+            |||||||||||||||||| ||
+Sbjct  613  GAGAGTCTTCCAAATATCCCT  633
+
+
+>emb|FQ312005.1| Bacteriovorax marinus SJ genome
+Length=3435933
+
+ Features in this part of subject sequence:
+   putative dihydrouridine synthase (tRNA modification protein)
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 23/26 (88%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  1        AAAGAGAGAGTCTTCCAAATATCTCT  26
+                |||||| ||||||||||| | |||||
+Sbjct  1137805  AAAGAGGGAGTCTTCCAATTGTCTCT  1137830
+
+
+>ref|XM_002868456.1| Arabidopsis lyrata subsp. lyrata hypothetical protein, mRNA
+Length=2500
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 23/26 (88%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  1    AAAGAGAGAGTCTTCCAAATATCTCT  26
+            ||||||| || | |||||||||||||
+Sbjct  463  AAAGAGAAAGGCATCCAAATATCTCT  488
+
+
+>emb|FP017218.6| Zebrafish DNA sequence from clone CH73-385H6 in linkage group 
+2, complete sequence
+Length=120417
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  6      GAGAGTCTTCCAAATATCTCTCA  28
+              |||| |||||||||||| |||||
+Sbjct  10034  GAGATTCTTCCAAATATATCTCA  10012
+
+
+>gb|EU180847.1| Boechera divaricarpa clone BAC33, complete sequence
+Length=73816
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  1      AAAGAGAGAGTCTTCCAA  18
+              ||||||||||||||||||
+Sbjct  24673  AAAGAGAGAGTCTTCCAA  24690
+
+
+>ref|NG_008033.1| Homo sapiens collagen, type XI, alpha 1 (COL11A1), RefSeqGene 
+on chromosome 1
+Length=239030
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9       AGTCTTCCAAATATCTCT  26
+               ||||||||||||||||||
+Sbjct  103196  AGTCTTCCAAATATCTCT  103213
+
+
+>gb|EU162611.1| Capsella rubella clone contig46 BAC sequence
+Length=129031
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  1       AAAGAGAGAGTCTTCCAA  18
+               ||||||||||||||||||
+Sbjct  111608  AAAGAGAGAGTCTTCCAA  111625
+
+
+>gb|AC215646.1| Populus trichocarpa clone ACSB185-A21, complete sequence
+Length=42801
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  10    GTCTTCCAAATATCTCTC  27
+             ||||||||||||||||||
+Sbjct  2049  GTCTTCCAAATATCTCTC  2032
+
+
+>gb|AC215629.1| Populus trichocarpa clone POP044-D07, complete sequence
+Length=132588
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7     AGAGTCTTCCAAATATCTCTC  27
+             || ||||||||||||||||||
+Sbjct  5313  AGTGTCTTCCAAATATCTCTC  5333
+
+
+>ref|XM_001451859.1| Paramecium tetraurelia hypothetical protein (GSPATT00018704001) 
+partial mRNA
+Length=4935
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  9     AGTCTTCCAAATATCTCT  26
+             ||||||||||||||||||
+Sbjct  4842  AGTCTTCCAAATATCTCT  4825
+
+
+>ref|XM_001427508.1| Paramecium tetraurelia hypothetical protein (GSPATT00030786001) 
+partial mRNA
+Length=2892
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  11   TCTTCCAAATATCTCTCA  28
+            ||||||||||||||||||
+Sbjct  866  TCTTCCAAATATCTCTCA  849
+
+
+>gb|AC192819.2| Callithrix jacchus BAC clone CH259-84H12 from chromosome unknown, 
+complete sequence
+Length=183211
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  3       AGAGAGAGTCTTCCAAATATCTC  25
+               ||||||||||||||| | |||||
+Sbjct  160909  AGAGAGAGTCTTCCACAAATCTC  160887
+
+
+>gb|AC102413.8| Mus musculus chromosome 3, clone RP24-462F18, complete sequence
+Length=181851
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9      AGTCTTCCAAATATCTCT  26
+              ||||||||||||||||||
+Sbjct  80127  AGTCTTCCAAATATCTCT  80144
+
+
+>gb|AC099735.47| Mus musculus chromosome 1, clone RP23-218I9, complete sequence
+Length=207768
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 23/26 (88%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  1       AAAGAGAGAGTCTTCCAAATATCTCT  26
+               |||||||||||||||| ||| | |||
+Sbjct  135036  AAAGAGAGAGTCTTCCTAATTTTTCT  135061
+
+
+>gb|AC007640.13| Homo sapiens chromosome 11, clone RP11-89A1, complete sequence
+Length=171722
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9      AGTCTTCCAAATATCTCT  26
+              ||||||||||||||||||
+Sbjct  43679  AGTCTTCCAAATATCTCT  43696
+
+
+>gb|AC019063.4| Homo sapiens BAC clone RP11-144H20 from 7, complete sequence
+Length=187282
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9      AGTCTTCCAAATATCTCT  26
+              ||||||||||||||||||
+Sbjct  14503  AGTCTTCCAAATATCTCT  14520
+
+
+>gb|AC130312.3| Homo sapiens chromosome 11, clone RP11-97G1, complete sequence
+Length=161367
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  9      AGTCTTCCAAATATCTCT  26
+              ||||||||||||||||||
+Sbjct  25875  AGTCTTCCAAATATCTCT  25858
+
+
+>gb|AC144523.2| Homo sapiens BAC clone RP11-1302F12 from UL, complete sequence
+Length=190427
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  9      AGTCTTCCAAATATCTCT  26
+              ||||||||||||||||||
+Sbjct  48813  AGTCTTCCAAATATCTCT  48796
+
+
+>emb|CR933520.10| Zebrafish DNA sequence from clone CH211-28A20 in linkage group 
+8, complete sequence
+Length=165296
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  2       AAGAGAGAGTCTTCCAAATATCT  24
+               |||||||||||||| ||| ||||
+Sbjct  135322  AAGAGAGAGTCTTCAAAACATCT  135300
+
+
+>gb|AC159966.5| Mus musculus chromosome 1, clone RP23-287P12, complete sequence
+Length=208142
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 23/26 (88%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  1      AAAGAGAGAGTCTTCCAAATATCTCT  26
+              |||||||||||||||| ||| | |||
+Sbjct  42901  AAAGAGAGAGTCTTCCTAATTTTTCT  42926
+
+
+>ref|NM_117062.1| Arabidopsis thaliana AIG1-like protein (AT4G09940) mRNA, complete 
+cds
+ gb|DQ056647.1| Arabidopsis thaliana avirulence-responsive family protein (At4g09940) 
+mRNA, complete cds
+Length=1185
+
+ Score = 33.7 bits (36),  Expect = 10.0
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  6    GAGAGTCTTCCAAATATCTCTCA  28
+            |||||||||||||||||  ||||
+Sbjct  577  GAGAGTCTTCCAAATATTCCTCA  555
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Apr 18, 2013  12:12 PM
+  Number of letters in database: 48,466,568,417
+  Number of sequences in database:  25,196,777
+
+Lambda      K        H
+   0.634    0.408    0.912 
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+Matrix: blastn matrix:2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Number of Sequences: 25196777
+Number of Hits to DB: 2089386
+Number of extensions: 5018
+Number of successful extensions: 5018
+Number of sequences better than 100: 22
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 5018
+Number of HSP's successfully gapped: 22
+Length of query: 28
+Length of database: 48466568417
+Length adjustment: 25
+Effective length of query: 3
+Effective length of database: 47836648992
+Effective search space: 143509946976
+Effective search space used: 143509946976
+A: 0
+X1: 22 (20.1 bits)
+X2: 33 (29.8 bits)
+X3: 110 (99.2 bits)
+S1: 25 (23.8 bits)
+S2: 33 (31.0 bits)
+
+
+
+

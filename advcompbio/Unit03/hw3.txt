@@ -1,0 +1,51 @@
+1. Provide an example of the first line of a perl script and describe its purpose.
+#!/usr/bin/perl -w
+The shebang points to the path of the program that should be used to execute the script.
+
+
+2. True or False:
+   2a: Perl scripts must end in the '.pl' extension.
+   False
+
+   2b: You can declare array variables in perl without knowing the size or types of data that will go
+   into them.
+   True
+
+3. Describe some differences between interpreted and compiled programming languages.  Give an
+example of each.
+
+Compiled languages are translated by running source code through a compiler. This is efficient if 
+the code is run many times, since compiled languages (after being compiled) would then only
+need to be loaded and executed. Interpreted languages must be parsed/interpreted/executed each 
+time the program is run and is therefore less efficient, but the difference in the "slower" 
+execution time is really negligible. Interpreted languages involve source code processing by
+a software program (interpreter) which reads in the text and immediately acts upon the 
+instructions given by the code. 
+
+4. What are the three basic types of variables in perl?  Give an example of data appropriate to store
+in each.
+
+1) scalar - contains single value e.g. $num = 5; $word = "hello";
+2) array - contains ordered list of values e.g. @letters = qw(A,B,C)
+3) hash - contains unordered list of key-value pairs e.g. %complement = ( 'L' => 'leucine', 'G' => 'Glycine')
+
+The following exercises should be performed on the class server and will be checked once
+the assignment is due.  In your home directories you will find a file called
+'e_coli_k12_dh10b.faa' which you will use as input to the two scripts below.
+
+5. ( 6 points ) Write a script called 'summarize_fasta.pl' that reads the sequences within the E. coli
+FASTA file above and reports the following statistics:
+ - gene count
+ - min protein length 
+ - max protein length 
+ - average protein length 
+ - count of genes with 'hypothetical' in the description
+
+6. ( 6 points ) Write a script called 'lookup_sequence.pl' that reads the same E. coli file above but
+also prompts a user for an accession (like .YP_001728995.1.).  It should scan through the file
+and print the FASTA entry for only that accession on STDOUT.  For that accession, as an
+example, the output should be only:
+>gi|170079675|ref|YP_001728995.1| hypothetical protein ECDH10B_0012 [Escherichia coli str. K-12 substr. DH10B]
+MRVSWLESKCDTPFANNLSFISSGSSSSSSFTLASTACRNSCLCSSSIFFQVLRRNCSSNCCSISNVDIS
+LSAFSFNRFETSSKMARYNLPCPRSLLAILSPPKCCNSPAISCQLRRCCSGCPSIDLNSSLRISTLERRV
+LPFSLWVSNRAKFANCSSLQC

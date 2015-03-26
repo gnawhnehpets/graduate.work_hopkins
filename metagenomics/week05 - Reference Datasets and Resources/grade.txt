@@ -1,0 +1,5 @@
+This was a good review, though your first sentence was a bit truncated.  You've piqued my curiosity here, and I'm wondering about the sampling.  If you're interested in investigating a change in microflora in response to permafrost thawing, do any of the specific sites linked have longitudinal sample data available?  That isn't made clear in your example.
+ 
+Overall, nicely done, and I'm glad to see you have your data collected together.
+ 
+I also noticed an empty file in your refgenomes directory called 'help'.  Is this a plea?

@@ -1,0 +1,22 @@
+#Same as the following except only files are copied if source file (original) is newer than the destinatio file (the copy): 
+
+#Script copies HTML and CGI copies from a project directory to a web server directory via a loop. Assume the project is in ~/my_project, with html/cgi subdirectories, with no subdirectories under those; assume a destination of ~/public_html
+
+#! /bin/sh
+
+mkdir -p ./public_html/{html,cgi}
+
+for htmlfile in *.html ; do
+	if test $htmlfile -nt ./public_html/html/$htmlfile ; then 
+        	echo "Processing $htmlfile"
+        	cp $htmlfile ./public_html/html/$htmlfile
+	fi
+done
+
+
+for cgifile in *.cgi ; do
+	if test $cgifile -nt ./public_html/cgi/$cgifile ; then
+        	echo "Processing $cgifile"
+        	cp $cgifile ./public_html/cgi/$cgifile
+	fi
+done

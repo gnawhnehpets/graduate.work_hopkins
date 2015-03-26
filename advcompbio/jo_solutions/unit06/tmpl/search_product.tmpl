@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Unit 06 HW, question 5</title>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <!-- some elementary styling -->
+    <link rel="stylesheet" type="text/css" href="css/search_product.css" />
+</head>
+
+<body id="main">
+
+	<h1>E. coli gene search</h1>
+    <section>
+        <p>
+            <TMPL_VAR MATCH_COUNT> match(es) found.
+        </p>
+        <TMPL_IF MATCH_COUNT>
+        <table>
+            <tr>
+                <td>Locus tag</td>
+                <td>Product</td>
+            </tr>
+            <TMPL_LOOP MATCHES>
+            <tr>
+                <td><TMPL_VAR LOCUS></td>
+                <td><TMPL_VAR PRODUCT></td>
+            </tr>
+            </TMPL_LOOP>
+        </table>
+        </TMPL_IF>
+    </section>
+
+</body>
+
+</html>

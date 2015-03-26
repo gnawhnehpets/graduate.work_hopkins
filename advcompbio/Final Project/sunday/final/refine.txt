@@ -1,0 +1,4 @@
+ref|ZP_15044188.1|cytotoxic necrotizing factor 1 domain prot... |40.0|0.002|1|31
+ref|ZP_06748204.1|conserved hypothetical protein [Fusobacter... |29.6|29|28|51
+ref|ZP_17124519.1|hypothetical protein HMPREF9942_00657 [Fus... |29.6|38|28|50
+ref|ZP_01732712.1|hypothetical protein FBBAL38_00140 [Flavob... |27.7|91|9|31

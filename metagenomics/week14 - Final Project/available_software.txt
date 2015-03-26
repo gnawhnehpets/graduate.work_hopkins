@@ -1,0 +1,25 @@
+Many of you have a lot of software needs for your final projects.  I've installed a lot already, many of you have installed your own in your home areas, but there are some still outstanding requests.  I'll be updating this list here between now and the end of the term.  In general, when you want to find software you should look here:
+ 
+"software directory":   /diag/software
+"shared directory":    /diag/projects/hopkins_410.734/shared
+ 
+Here are some application-specific notes:
+ 
+- BatMis: Installed (software directory) 
+- BLAT: Installed (software directory)
+- Bowtie2: Installed (software directory)
+- BWA: Installed (software directory)
+- EMBOSS: Installed (software directory)
+- Ergatis scripts: There's an interface for Ergatis available but it requires a bit of training.  For those of you who have asked for the scripts I've put them in the shared directory.  Check under the 'src' subdirectory and make sure you include the 'lib' directory in any of your invocations ("perl -I /path/to/lib src/perl/ascript.pl")
+- FR-HIT: Installed (software directory)
+- Glimmer-MG: Installation complete (though I have no test runs)
+- HUMAnN: Partially installed - there are a few issues to work out still.
+- KEGG: Now available in the shared directory (thanks for Nilesh for acquiring it.)
+- Khmer (diginorm): Installed (software directory)
+- matplotlob: This Python module has been installed centrally.  You should just have to 'include' it in your python script.
+- MEGAN 4: This is a GUI application that probably won't work very well for you from the DIAG servers.  I've installed it in the software directory, but you'll have to work on X11 forwarding with your operating system to make it work.  If you have Linux or OSX you might be able to just ssh with the -XY arguments.  For Windows users it's a lot more complicated.
+- MetaPhlAn: Installed in the software directory.   Make sure you run it with python 2.7, which is also installed in the software directory.
+- Mothur: Installed (software directory)
+- Python 2.7: Some of your specific applications needed Python 2.7, it is now installed in the software directory.  You'll need to call it specifically or you'll get the default 2.6 on DIAG.
+- Qiime: Installed (software directory)
+- Scons: Installed (software directory)

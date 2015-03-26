@@ -1,0 +1,92 @@
+Unit 7 Homework – MySQL and Chado
+1. (12 points) In the Chado lecture slides for this unit you'll find instructions for initializing a
+Chado database and loading it with the annotation for a test organism. Follow these
+instructions, then write a query to list out the polypeptide features that might be bifunctional
+proteins by filtering for those whose gene product names contain the string “bifunctional.”
+Attach your query and result rows as a text file to your homework submission.
+
+mysql> SELECT f.feature_id, fp.value
+    FROM feature f
+    JOIN cvterm c ON f.type_id=c.cvterm_id
+    JOIN featureprop fp ON f.feature_id=fp.feature_id
+    JOIN cvterm cp ON fp.type_id=cp.cvterm_id
+    WHERE fp.value like '%bifunctional%'
+    AND cp.name = 'gene_product_name';
+
++------------+---------------------------------------------------------------------------------------------------------------------------------+
+| feature_id | value                                                                                                                           |
++------------+---------------------------------------------------------------------------------------------------------------------------------+
+|        101 | bifunctional riboflavin kinase and FAD synthetase                                                                               |
+|        381 | bifunctional aconitate hydratase 2 and 2-methylisocitrate dehydratase                                                           |
+|        505 | bifunctional glycosyl transferase and transpeptidase                                                                            |
+|       1669 | bifunctional UDP-sugar hydrolase and 5'-nucleotidase                                                                            |
+|       1673 | bifunctional cys-tRNA Pro deacetylase and cys-tRNA Cys deacylase                                                                |
+|       1861 | bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase and 5,10-methylene-tetrahydrofolate cyclohydrolase                   |
+|       4621 | bifunctional thiamin pyrimidine pyrophosphate hydrolase and thiamin pyrophosphate hydrolase                                     |
+|       6457 | Qin prophage; bifunctional antitoxin of the RelE-RelB toxin-antitoxin system and transcriptional repressor                      |
+|       6681 | bifunctional beta-cystathionase, PLP-dependent and regulator of maltose regulon                                                 |
+|       8041 | bifunctional cobinamide kinase and cobinamide phosphate guanylyltransferase                                                     |
+|       8149 | bifunctional histidinal dehydrogenase and histidinol dehydrogenase                                                              |
+|       8273 | bifunctional GDP-fucose synthetase: GDP-4-dehydro-6-deoxy-D-mannose epimerase and GDP-4-dehydro-6-L-deoxygalactose reductase    |
+|       8457 | bifunctional hydroxy-methylpyrimidine kinase and hydroxy-phosphomethylpyrimidine kinase                                         |
+|       8945 | bifunctional 3-demethylubiquinone-9 3-methyltransferase and 2-octaprenyl-6-hydroxy phenol methylase                             |
+|       9081 | bifunctional 2-oxoglutarate decarboxylase and SHCHC synthase                                                                    |
+|       9273 | bifunctional folylpolyglutamate synthase and dihydrofolate synthase                                                             |
+|       9309 | bifunctional 5-carboxymethylamino-methyl-2-thiouridine oxidoreductase and 5-aminomethyl-2-thiouridine methylase                 |
+|      10365 | bifunctional chorismate mutase P and prephenate dehydratase                                                                     |
+|      10369 | bifunctional chorismate mutase T and prephenate dehydrogenase                                                                   |
+|      11649 | bifunctional prepilin leader peptidase and methylase                                                                            |
+|      11997 | bifunctional dihydroneopterin aldolase and dihydroneopterin triphosphate 2'-epimerase                                           |
+|      13013 | bifunctional prepilin leader peptidase and methylase                                                                            |
+|      13105 | bifunctional acetylornithine aminotransferase and succinyldiaminopimelate aminotransferase                                      |
+|      14237 | bifunctional (p)ppGpp synthetase II and guanosine-3',5'-bis pyrophosphate 3'-pyrophosphohydrolase                               |
+|      14645 | predicted bifunctional enzyme and transcriptional regulator                                                                     |
+|      14873 | bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase and S-adenosylmethionine:2-DMK methyltransferase                 |
+|      15373 | bifunctional biotin-[acetylCoA carboxylase] holoenzyme synthetase and DNA-binding transcriptional repressor, bio-5'-AMP-binding |
++------------+---------------------------------------------------------------------------------------------------------------------------------+
+27 rows in set (0.00 sec)
+
+
+2. (8 points) Take your query from the previous question and add columns to show what
+'assembly' feature type the polypeptides are located on, as well as the fmin, fmax and strand
+coordinates of each row. Again, attach your query and result rows as a text file to your
+homework submission.
+
+SELECT f.feature_id, fp.value, fl.fmin, fl.fmax, fl.strand
+FROM feature f, cvterm c, featureprop fp, featureloc fl
+WHERE fp.value like '%bifunctional%'
+AND c.name = 'gene_product_name'
+AND fl.srcfeature_id = f.feature_id
+AND f.type_id=c.cvterm_id
+
+AND f.feature_id=fp.feature_id
+AND fp.type_id=c.cvterm_id
+
+SELECT f.feature_id, fp.value, fl.fmin, fl.fmax, fl.strand
+FROM feature f
+JOIN cvterm c ON f.type_id=c.cvterm_id
+JOIN featureprop fp ON f.feature_id=fp.feature_id
+JOIN cvterm cp ON fp.type_id=cp.cvterm_id
+JOIN featureloc fl ON fl.srcfeature_id = f.feature_id
+WHERE fp.value like '%bifunctional%'
+AND c.name = 'assembly';
+
+
+
+SELECT f.feature_id, fl.fmin, fl.fmax, fl.strand
+FROM feature f
+JOIN featureprop fp
+JOIN cvterm c ON f.type_id=c.cvterm_id
+JOIN cvterm cp ON f.type_id=cp.cvterm_id
+JOIN featureloc fl ON fl.srcfeature_id = f.feature_id
+WHERE fp.value like '%bifunctional%'
+AND c.name = 'assembly'
+OR c.name = 'contig';
+
+
+SELECT f.feature_id, fl.fmin, fl.fmax, fl.strand
+FROM feature f, featureprop fp, cvterm c, featureloc fl
+WHERE fp.value like '%bifunctional%'
+AND fl.srcfeature_id = f.feature_id
+AND f.type_id = c.cvterm_id
+AND c.name = 'assembly'

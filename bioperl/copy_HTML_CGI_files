@@ -1,0 +1,6 @@
+#Script copies HTML and CGI copies from a project directory to a web server directory. Assume the project is in ~/my_project, with html/cgi subdirectories, with no subdirectories under those; assume a destination of ~/public_html
+
+> emacs script.sh
+> emacs cp ~/my_project/html/*.html ~/public_html
+> emacs cp ~/my_project/cgi/*.cgi ~/public_html
+> sh script.sh

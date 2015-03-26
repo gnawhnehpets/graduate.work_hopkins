@@ -1,0 +1,5 @@
+#Script generates a basic project directory tree.
+
+> emacs script.sh
+> mkdir -p /home/Documents/project/{bin,lib}
+> sh script.sh

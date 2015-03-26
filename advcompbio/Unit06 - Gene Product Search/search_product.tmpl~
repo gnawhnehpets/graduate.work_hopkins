@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Gene Product Search </title>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <style>
+      table, td { border: 1px solid rgb(200,200,200); }
+      table { border-collapse: collapse; }
+      td { padding: 0 20px 0 20px }
+    </style>
+</head>
+
+<body id="main">
+  <form>
+    <label for="search_name">Please enter new search term.</label>
+    <input id="product" type="text" name="search_name">
+    <input type="submit" value="Submit">
+  </form>
+  
+  <h4>Search results</h4>
+  <table id='gbk_detail'>
+    <thead>
+      <tr>
+        <td>Locus tag</td>
+	<td>Product</td>
+    </thead>
+    <tbody>
+      <TMPL_LOOP NAME=gbk_loop>
+        <tr>
+          <td><TMPL_VAR NAME=locus_tag></td>
+          <td><TMPL_VAR NAME=product_name></td>
+        </tr>
+      </TMPL_LOOP>
+    </tbody>
+  </table>
+</body>
+</html>

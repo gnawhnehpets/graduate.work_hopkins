@@ -1,0 +1,60 @@
+Unit 10 Homework – CSS3 Introduction
+1. (5 points) Name 2 new CSS3 attributes/properties and describe what they do.
+
+border-radius: round corners on borders based on radius
+box-shadow: apply depth to elements (x-offset, y-offset, blur, color of shadow)
+transition: apply animation to elements
+
+ul a {
+   transition: padding .1s; /*set speed of animation*/
+}
+
+a:hover {
+   padding-left: 2px; /*set direction and distance of animation*/
+}
+
+2. (5 points) Name 2 new CSS3 selectors and describe what they do.
+
+
+a:hover{}: when 'a' element is hovered over with cursor...
+p{}: for all paragraphs on page...
+p.classA{}: for all paragraphs of class 'classA'...
+p#idA{}: for all paragraphs with id 'idA'...
+a:visited{}: for all visited links...
+
+
+3. (20 points) One feature commonly added to block-level elements in the past were rounded 
+edges. Before CSS3 this required the use of images for each corner along with some hackery 
+with backgrounds. CSS3 makes this much easier. Provide code needed to select a div with an 
+id of #testdiv and give it a 3px border and rounded edges with a radius of 25px.
+
+#file.css
+div#testdiv{
+    border: 3px solid;
+    border-radius: 25px
+}
+
+#html
+<link rel='stylesheet' type='text/css' href='./file.css'>
+<div id="testdiv"> this is testdiv</div>
+
+
+4. (20 points) Describe the difference in approaches to create columnar layouts between the older 
+float-based method and the modern CSS3 Flexible Box Layout Module.
+The older float-based method relied on manipulating the template of the page by sending a
+particular element (e.g. a table) to the left or right side so that other elements are 
+forced to go around it. It's obvious that there would be quite a bit of troubleshooting 
+just to verify the formatting. 
+
+Flexible Box Layout Module relies on existing layouts within CSS which we can use to dictate 
+in which items are to be placed. Flex layout is similar to block layout, but does not have
+more complex text/document properties such as floats and columns. Flexbox is good at distributing
+space and aligning content in a simpler but more powerful fashion. A flex container can lay
+its contents in any flow direction (left, right, up, down), reverse/rearrange order of display
+of content, lay content linearly along an axis or wrap content along a secondary axis, adjust
+size to respond to available space (great for utilizing columns in displaying content), and 
+align properly with respect to container or another container.
+
+Sources:
+http://net.tutsplus.com/tutorials/html-css-techniques/an-introduction-to-css-flexbox/
+http://dev.w3.org/csswg/css-flexbox/

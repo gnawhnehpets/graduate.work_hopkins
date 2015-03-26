@@ -1,0 +1,6 @@
+ref|WP_001577367.1|hypothetical protein [Escherichia coli] >... |43.5|5e-04|157|176
+ref|WP_001533923.1|cytotoxic necrotizing factor 1 [Escherich... |43.5|6e-04|157|176
+ref|WP_001682680.1|cytotoxic necrotizing factor 1 [Escherich... |43.5|6e-04|142|161
+gb|AAA85196.1|CNF1 [Escherichia coli]                           |43.5|6e-04|157|176
+gb|AAA18229.1|cytotoxic necrotizing factor type 2 [Escherich... |42.7|0.001|157|176
+emb|CAK19001.1|cytotoxic necrotizing factor 3 [Escherichia c... |36.6|0.14|157|176

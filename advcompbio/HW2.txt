@@ -1,0 +1,83 @@
+Unit 2 Homework – Database and SQL review
+1. Which SQL statement type should you use to extract data from a database?
+
+SELECT [name of column(s)]
+FROM [name of table(s)]
+(where [search conditions])
+
+2. If I need a numeric column in my database to store values up to 9 digits in length, which
+datatype should I use?
+
+INT()
+
+3. What is the difference between CHAR and VARCHAR datatypes?
+
+CHAR is a fixed length datatype whereas VARCHAR is a varaible length datatype. Therefore, CHAR should be used for strings that always have the same number of characters whereas VARCHAR stores only as many characters as it needs to and is better for strings of different lengths. 
+
+4. True or False: The RDBMS will throw an error if you issue a DELETE statement without a
+WHERE clause.
+
+False. If there is no WHERE clause, all rows in the table will be removed. 
+
+5. Give the SQL needed to select a column called “gene_product” from a hypothetical table called
+“genes” and using a table alias of just “g” for the genes table.  Make sure the results are sorted
+in ascending alphabetical order.
+
+SELECT g.gene_product
+FROM genes g
+ORDER  by g.gene_product asc
+
+6. Give the SQL needed to select all columns from a hypothetical table called “publications”.
+
+SELECT *
+FROM publications
+
+7. Give the SQL needed to return the total number of rows in a table called “genes”.
+
+SELECT count(*)
+FROM genes
+
+
+The following exercises should be performed on the class server and will be checked once
+the assignment is due.
+
+8. Log into the MySQL server using your user name and password as described in the Introduction
+PDF in Unit 1.  Once logged in, change your password.  Look in your MySQL book for
+instructions.
+
+mysql> SET PASSWORD FOR 'shwang26'@'localhost'=PASSWORD('H*******');
+
+9. (6 points) Design a simple database schema to store information about organisms and their
+genes and create it within your MySQL database.  Specifically, it should be able to store the
+genus, species and taxon ID for any given organism.  It should also be able accommodate all
+genes for these organisms, storing the accession, gene product name and gene symbol for each.
+
+TABLE1: accession_num | taxon_id | genus | species | 
+
+> CREATE TABLE organisms(accession CHAR(8), taxon_id CHAR(6), genus VARCHAR(32), species VARCHAR(32));
+
+
+TABLE2: accession_num | prod_name | gene_sym | gene_description
+
+> CREATE TABLE genes(accession CHAR(8), prod_name VARCHAR(64), gene_sym VARCHAR(5), gene_desc VARCHAR(50));
+
+
+10. (6 points) Populate your newly-created database from #9 with the appropriate data from the
+following NCBI accessions:  
+CBG36883, CBG32879, CBG33788, ADZ50581, ADZ50584, ADZ49168
+(To do this, search the accessions using this form:http://www.ncbi.nlm.nih.gov/protein and then
+pick out the attributes described in #9.)
+
+INSERT INTO organisms(accession, taxon_id, genus, species) VALUES('CBG36883', '216592', 'Escherichia', 'Escherichia coli');
+INSERT INTO organisms(accession, taxon_id, genus, species) VALUES('CBG32879', '216592', 'Escherichia', 'Escherichia coli');
+INSERT INTO organisms(accession, taxon_id, genus, species) VALUES('CBG33788', '216592', 'Escherichia', 'Escherichia coli');
+INSERT INTO organisms(accession, taxon_id, genus, species) VALUES('ADZ50581', '985081', 'Helicobacter', 'Helocibacter pylori');
+INSERT INTO organisms(accession, taxon_id, genus, species) VALUES('ADZ50584', '985081', 'Helicobacter', 'Helocibacter pylori');
+INSERT INTO organisms(accession, taxon_id, genus, species) VALUES('ADZ49168', '985081', 'Helicobacter', 'Helocibacter pylori');
+
+INSERT INTO genes(accession, gene_sym, prod_name, gene_desc) VALUES('CBG36883', 'dnaA', 'dnaA chromosomal replication initiator protein', 'chromosomal replication initiator protein');
+INSERT INTO genes(accession, gene_sym, prod_name, gene_desc) VALUES('CBG32879', 'fixC', 'fixCFAD-dependent oxidoreductase', 'fixC FAD-dependent oxidoreductase');
+INSERT INTO genes(accession, gene_sym, prod_name, gene_desc) VALUES('CBG33788', 'poxB', 'poxB pyruvate oxidase', 'poxB pyruvate oxidase');
+INSERT INTO genes(accession, gene_sym, prod_name, gene_desc) VALUES('ADZ50581', 'dnaA', 'dnaA chromosomal replication initiator protein', 'chromosomal replication initiator protein');
+INSERT INTO genes(accession, gene_sym, prod_name, gene_desc) VALUES('ADZ50584', 'glmS', 'glmS glucosamine--fructose-6-phosphate aminotransferase', 'glucosamine--fructose-6-phosphate aminotransferase');
+INSERT INTO genes(accession, gene_sym, prod_name, gene_desc) VALUES('ADZ49168', 'rplM', 'rplM 50S ribosomal protein L13', '50S ribosomal protein L13');

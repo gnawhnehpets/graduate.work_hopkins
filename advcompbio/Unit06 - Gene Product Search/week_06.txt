@@ -1,0 +1,47 @@
+Unit 6 Homework – CGI and HTML forms
+1. In HTML, how do you direct the browser to the script that will process your form?
+
+the action attribute of <form> element
+ex: <form action='./search_products.cgi'>
+
+2. If you have a series of check boxes in your form that all have the same value for the “name”
+attribute, how would you store them into a variable within your perl CGI script?
+	<input type='checkbox' name='molecule' value='dna'>DNA
+	<input type='checkbox' name='molecule' value='rna'>RNA
+	<input type='checkbox' name='molecule' value='trna'>tRNA
+
+You would store the values in an array.
+
+
+3. What happens if you use an element type such as 'date' and it's not supported by the browser?
+
+You cannot utilize the element. For example, with 'date': in Chrome, a supported browser, I can change the date from the default date, whereas in IE and Firefox, both unsupported browsers (or status unknown), I get a server error when I try to change the date. 
+
+4. Read the documentation for the CGI module and write the code you'd need if you wanted to
+record the IP address of the person submitting your form into a variable. (google, or enter
+'perldoc CGI' on the terminal.)
+
+use $ENV{REMOTE_ADDR}
+
+use CGI; 
+print "Content-type: text/plain\n";
+my $q = new CGI;
+print $q->remote_host(); ## print the user ip address
+
+
+The following exercise should be performed on the class server and will be checked once
+the assignment is due. 
+
+5. ( 12 points ) Make a copy of the following file and place it within your web directory:
+/home/jorvis/e_coli_k12_dh10b.gbk
+This is the entire annotated genome of E. coli K12. Create an page called 'search.html' in your
+web area that contains a valid HTML5 page and a single search box, where users can enter a
+gene product name they wish to search for. Make your form submit to a script you create called
+'search_product.cgi'. This script should read through that gbk file looking for any “/product”
+tags that contain the exact search string, and use a template you create called
+'search_product.tmpl' to display the results. The results should show not only the matched
+product names but their corresponding locus_tag entries as well. So if I searched for 'glutamate
+synthase' I'd expect to get an HTML page that contains a data table that looks like this:
+
+
+ cloud-131-215.diagcomputing.org/shwang26/unit06/search_product.cgi

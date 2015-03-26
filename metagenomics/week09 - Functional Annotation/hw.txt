@@ -1,0 +1,12 @@
+The top results from pBLAST match the protein to be from Neisseria meningitidis. Top matches identify the sequence as a bifunctional riboflavin kinase/FMN adenylyltransferase and riboflavin biosynthesis protein. <http://www.ncbi.nlm.nih.gov/gene?LinkName=protein_gene&from_uid=385853891>. The gene symbol were the same (ribF) but the gene product name differed.
+Running the sequence through HMMER gives us two matches (FAD synthetase & riboflavin kinase) <http://hmmer.janelia.org/results/score/178EAC10-2B4D-11E2-B160-8214F29B2471>. The pfam entries explain that the riboflavin biosynthesis protein uses riboflavin kinase (EC 2.7.1.2) to convert riboflavin into FMN and uses FAD synthetase (EC 2.7.7.2) to convert FMN to FAD. It's also explained that while eukaryotes have two separate enzymes as explained, prokaryotes have a single bifunctional protein that performs both of these reactions. The eukaryotic riboflavin kinase is orthologous to the bifunctional prokaryotic enzyme while the eukaryotic FAD synthetase is related to the PAPS-reductase family.
+InterProScan results confirm the HMMER and BLAST results (e.g. matches include riboflavin kinase, FAD synthetase)
+<http://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=iprscan-I20121111-145023-0019-18902005-oy&tool=iprscan&analysis=visual>
+<http://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=iprscan-I20121111-145023-0019-18902005-oy&tool=iprscan&analysis=summary>
+Since the BLAST results list the enzyme to be from Neisseria meningitidis, a bacterium, we can assume the sequence is from the prokaryotic bifunctional riboflavin kinase/FAD synthetase enzyme. Therefore, I've included both EC numbers for both enzymes since the prokaryotic enzyme contains both enzymatic properties, and I chose the “generic” label that describes the bifunctional enzyme.
+Gene product name: Riboflavin biosynthesis protein
+Gene symbol: ribF
+EC number: EC 2.7.1.26, 2.7.7.2
+GO: 0009231 riboflavin biosynthetic process
+GO: 0008531 riboflavin kinase activity
+GO: 0003919 FMN adenylyltransferase activity

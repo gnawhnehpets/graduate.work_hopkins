@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>HW05 solution</title>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <style>
+      table, td { border: 1px solid rgb(200,200,200); }
+      table { border-collapse: collapse; }
+      td { padding: 0 20px 0 20px }
+    </style>
+</head>
+
+<body id="main">
+  
+  <form>
+    
+    <label for="search_name">Please enter search term.</label>
+    <input id="product" type="text" name="search_name">
+    <input type="submit" value="Submit">
+    
+  </form>
+  
+  <h2>Locus tag & product name</h2>
+  <table id='seq_detail'>
+    <thead>
+      <tr>
+        <td>Locus tag</td>
+	<td>Product</td>
+    </thead>
+    <tbody>
+      <TMPL_LOOP NAME=SEQS>
+        <tr>
+          <td><TMPL_VAR NAME=SEQ_ID></td>
+          <td><TMPL_VAR NAME=SEQ_LEN></td>
+        </tr>
+      </TMPL_LOOP>
+    </tbody>
+  </table>
+  
+</body>
+
+</html>

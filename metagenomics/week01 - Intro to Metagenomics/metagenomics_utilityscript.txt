@@ -1,0 +1,68 @@
+#!/usr/bin/perl
+use strict;
+#Script opens and reads files and outputs the
+#number of sequences found and the total number of
+#residues(bases) that make them up.
+/*
+Bioinformatics developers always have their own collections of scripts and utilities which make their work easier.  While many of these can be taken from public repositories, writing your own is a useful process.  A parser, for example, often forces you to look closer at a format as you deal with the intricacies of the specification, and writing your own scripts allows you to add options and customizations that only come with doing it all yourself.  There's no need to always re-invent the wheel, but when learning it's often useful to try something on your own someone else has already written.
+ 
+A very common file format you'll deal with is FASTA.  For this assignment, you should write a script which accepts the path to a FASTA file as an argument whose output is a report of a few basic statistics on the sequences found within the file.  In this first assignment, this report should include the number of sequences found and the total number of residues (bases) that make them up.  For example, the Sargasso Sea data files are found on DIAG here:
+ 
+    /diag/projects/hopkins_410.734/shared/sargasso_sea/
+ 
+If you run this on the sargasso.peptide.fa.gz file the output should be:
+ 
+    Total sequences found: 1001987
+    Total residues found : 194807940
+ 
+You may have noticed the '.gz' extension in the example file above.  Given the scale of most metagenomics studies it's preferred to leave the sequence files in a compressed state if possible, usually done with either gzip or bzip2 (although newer, more biology-specific alternatives are gaining popularity.)  Because of this convention, you should write your utility scripts to detect this and take the appropriate steps to read them without first uncompressing on disk.  Perl, python, etc. all have simple modules you can use which do the work here for you.
+ 
+For full credit, your script should detect whether a file is compressed (based on the existence of the '.gz' extension) and open the file appropriately.
+ 
+Attach your script to this assignment, as well as the output when run on the 'sargasso.contig.fa.gz' file.
+*/
+
+print "Please type in name of file\n";
+chomp(my $input) = <STDIN>;
+
+#my $file = "sargasso.peptide.fa.gz";
+#my $file = "test.txt";
+
+#Unzip .gz file
+if($file =~ m/.gz/){
+    open(INPUT, "gunzip -c $file |") or die "Can't open pipe to file";
+
+}else{
+#Open regular decompressed files
+    open(INPUT, $file) or die "Can't open file.\n";
+}
+
+my($num_sequences)=0;
+my($num_residues)=0;
+my($headercount)=0;
+my($total)=0;
+
+while(<xxxx>){
+    if(/>/){
+    $num_sequences++;
+    }else{
+
+        #Replace header with nothing
+        s/>.*//;
+            #Find length of line
+            my($string)=length();
+
+        #Remove any whitespace from front and end
+            $string =~ s/^\s+//;
+            $string =~ s/\s+$//;
+
+            #Add string(line) length to total
+            $total += $string;
+            $headercount++;
+    }
+}
+close INPUT;
+$num_residues = $total - $headercount;
+
+    print "Total sequences found: $num_sequences\n";
+    print "Total residues found: $num_residues\n";

@@ -1,0 +1,51 @@
+1. Name 2 open-source licenses which would allow users to modify and redistribute code from
+your project.
+
+Modified BSD license
+ISC license
+
+2. What command is used to view processes running on a system?
+
+top
+
+3. What command would you issue to see just your own processes?
+
+ps
+
+4. What program could you use to view the contents of a file pagewise using your terminal.
+
+emacs, vi
+less <filename>
+
+5. What would you type to get documentation on the uname command?
+
+uname --help
+
+6. What symbol is used to connect two commands together?  How would you use this in a
+command to list all files in a directory and count the number of lines?
+
+The colon (;) is used to connect two commands together
+> ls; ls | wc -l
+
+7. If a file has a permission block like '-rw-rw-r--', describe what operations members of the file's
+group would be able to perform?
+
+Owner: read & write
+Group: read & write
+World: read
+
+9. Create a file called 'I_was_here' in your home directory and populate it your favorite quote.
+Record how you did it here.
+
+> emacs I_was_here
+
+10. You can redirect output from any command to a file using the '>' symbol after your command
+and then providing a file name, like this:
+
+$ whoami > my.user
+
+This would write the name of the current user into a file called 'my.user'.  Use this method to list
+the contents of the file system root and redirect the output to a file in your home directory called
+'root.list'
+
+cd; ls > root.list

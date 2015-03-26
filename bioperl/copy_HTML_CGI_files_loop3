@@ -1,0 +1,47 @@
+#Same as the following except only files are copied if source file (original) is newer than the destinatio file (the copy): 
+
+#Script copies HTML and CGI copies from a project directory to a web server directory via a loop. Assume the project is in ~/my_project, with html/cgi subdirectories, with no subdirectories under those; assume a destination of ~/public_html
+
+
+#! /bin/sh
+
+
+# First case - Copy All if COPY_ALL is unset
+# Second case - Update only if COPY_ALL is 1
+
+
+if [ -z "$COPY_ALL" ]; then 
+	  #Hardcode
+	  mkdir -p ./public_html/{html,cgi}
+
+	  for htmlfile in *.html ; do
+        	echo "Processing $htmlfile"
+        	cp $htmlfile ./public_html/html/$htmlfile
+	  done
+
+	  for cgifile in *.cgi ; do
+        	echo "Processing $cgifile"
+        	cp $cgifile ./public_html/cgi/$cgifile
+	  done
+
+	  #OR SIMPLY 'exec ./copy_HTML_CGI_files_loop'
+elif [ "COPY_ALL"=1 ]; then 
+	  #Hardcode
+	  mkdir -p ./public_html/{html,cgi}
+
+	  for htmlfile in *.html ; do
+	  if test $htmlfile -nt ./public_html/html/$htmlfile ; then 
+        	echo "Processing $htmlfile"
+        	cp $htmlfile ./public_html/html/$htmlfile
+	  fi
+	  done
+
+	  for cgifile in *.cgi ; do
+	  if test $cgifile -nt ./public_html/cgi/$cgifile ; then
+        	echo "Processing $cgifile"
+        	cp $cgifile ./public_html/cgi/$cgifile
+	  fi
+	  done
+
+	  #OR simply 'exec ./copy_HTML_CGI_files_loop2'
+fi

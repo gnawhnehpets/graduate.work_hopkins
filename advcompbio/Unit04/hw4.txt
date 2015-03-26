@@ -1,0 +1,129 @@
+Unit 4 Homework . Perl review II & HTML5 Introduction
+1. Provide a regular expression that would match each of the following lines of text 
+
+and capture the ID portion (numeric string after the 'gi_'):
+>gi_87346 hypothetical protein
+>gi_23981 conserved hypothetical protein
+>gi_121   hypothetical protein
+Your single regex should match each of the lines above and, if applied to each line, 
+
+would capture '87346', '23981' and '121', which would be printed with the $1 
+
+variable.
+
+	if(/>gi_(\w+)/){
+            print $1."\n";
+        }else{
+            print "No ID captured.\n";
+
+2. If you're processing a line of text ($line) that contains tab-delimited data give 
+
+an example line of code that would store each column into an array called @cols.  
+
+(You should use a built-in function here.)
+
+#!usr/bin/perl
+use strict;
+use warnings;
+
+my $line = "this\tis\ta\ttab\tdelimited\tline";
+#my $line = "this is not a tab delimited line";
+my @cols;
+
+if($line =~ /\t/){
+    @cols = split('\t', $line);
+}else{
+    print "This is not a tab-delimited line.\n";
+}
+
+foreach (@cols){
+    print $_."\n";
+}
+
+
+3. Find a Perl module on CPAN that could be used to retrieve a weather report for any 
+
+given city. Provide its name and author.
+
+Geo::Weather by Mike Machado
+
+
+4. If I design a subroutine to accept three arguments, a scalar, an array, and then 
+
+another scalar where it would be called like this:
+
+do_stuff( $foo, @data, $woo );
+
+And then had this as the beginning of my subroutine definition:
+
+sub do_stuff {
+my ($var1, @arr1, $var2) = @_;
+}
+
+Why would the $var2 variable always be undefined?  How would you fix this?  (You'd 
+
+only need to change/add two characters and, no, you can't change the order of the 
+
+parameters.)
+
+If we pass arrays as an argument, @_ condenses the input array into a single array.
+
+We need reference the array and second scalar variable. 
+
+do_stuff( $foo, \@data, \$woo);
+
+sub do_stuff {
+    my ($var1, $arr1, $var2) = @_;
+    print $var1."\n";
+    foreach(@$arr1){print $_."\t";}
+    print "\n".$$var2."\n";
+}
+
+
+5. Name 3 new elements available in HTML5 that were not allowed in HTML4.  
+
+<command>
+<figure>
+<figcaption>
+<footer>
+<header>
+<audio>
+<video>
+<embed>
+
+The following exercises should be performed on the class server and will be checked 
+
+once the assignment is due.  
+
+6. (10 points)  The root of the web server can be found on the file system at:
+ /var/www
+If you look there, you'll find a directory with your user name that you can add 
+
+content to.  For this exercise, we're going to use the HTML5 Boilerplate described in 
+
+the lecture and make a new page with your intro information.  Start by doing the 
+
+following commands, replacing '$user' with your user name:
+$ cd /var/www/$user
+$ cp -r /home/jorvis/html5_template/* .
+$ ls
+Here you'll see all the files that make up the template.  Copy the index.html file to 
+
+a new file called 'intro.html'.  Then, populate it with the contents of the post 
+
+about yourself you put in the Introductory thread in Sakai.  (If you didn't post 
+
+there yet, now's the time!)  
+As you edit you can find your content online here:
+
+   http://   cloud-131-215.diagcomputing.org   /$user/intro.html
+
+Make sure you put your text within the body element of your page.  It should be 
+
+properly marked up using HTML5 elements only.  There should be at least one <a> 
+
+element to link a user to another page.  (link something you wrote to an article on 
+
+WikiPedia if you have to.)  We will be expanding on the contents of your web 
+
+directory as the class progresses.

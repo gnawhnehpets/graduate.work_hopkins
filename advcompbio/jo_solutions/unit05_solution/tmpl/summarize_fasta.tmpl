@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>HW05 solution</title>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <style>
+      table, td { border: 1px solid rgb(200,200,200); }
+      table { border-collapse: collapse; }
+      td { padding: 0 20px 0 20px }
+    </style>
+</head>
+
+<body id="main">
+
+	<h2>Summary</h2>
+    <table id='seq_summary'>
+      <tbody>
+        <tr>
+            <td class='descriptor'>Gene count</td>
+            <td><TMPL_VAR NAME=PROTEIN_COUNT></td>
+        </tr>
+        <tr>
+            <td class='descriptor'>Min protein length</td>
+            <td><TMPL_VAR NAME=MIN_PROTEIN_LENGTH></td>
+        </tr>
+        <tr>
+            <td class='descriptor'>Max protein length</td>
+            <td><TMPL_VAR NAME=MAX_PROTEIN_LENGTH></td>
+        </tr>
+        <tr>
+            <td class='descriptor'>Average protein length</td>
+            <td><TMPL_VAR NAME=AVG_PROTEIN_LENGTH></td>
+        </tr>
+        <tr>
+            <td class='descriptor'>Hypothetical genes</td>
+            <td><TMPL_VAR NAME=HYPOTHETICAL_GENES></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Sequence detail table</h2>
+    <table id='seq_detail'>
+      <thead>
+        <tr>
+          <td>Sequence ID</td>
+          <td>Length</td>
+          <td>Molar mass</td>
+      </thead>
+      <tbody>
+        <TMPL_LOOP NAME=SEQS>
+        <tr>
+          <td><TMPL_VAR NAME=SEQ_ID></td>
+          <td><TMPL_VAR NAME=SEQ_LEN></td>
+          <td><TMPL_VAR NAME=MOLAR_MASS></td>
+        </tr>
+        </TMPL_LOOP>
+      </tbody>
+    </table>
+
+</body>
+
+</html>

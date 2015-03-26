@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FINAL</title>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>-->
+  </head>
+  
+  <body id="main">
+    
+    <!-- INITIAL BLAST RESULTS -->
+    <section id='results'>
+      <form action="myform.php" method="post">
+	Which is your favorite movie?
+	<input type="text" name="formMovie" maxlength="50" value="<?=$varMovie;?>">
+	
+	What is your name?
+	<input type="text" name="formName" maxlength="50" value="<?=$varName;?>">
+	
+	<input type="submit" name="formSubmit" value="Submit">
+      </form>
+    </section>
+
+  </body>
+</html>

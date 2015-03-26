@@ -1,0 +1,4 @@
+bifunctional
+thiamin
+synthase
+riboflavin
